@@ -1,0 +1,17 @@
+.collapse-title, :where(.collapse > input[type="checkbox"]) {
+    width: 100%;
+    padding: 0rem;
+    padding-right: 3rem;
+    min-height: 3.75rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.collapse-content {
+    grid-row-start: 2;
+    overflow: hidden;
+    max-height: 0px;
+    padding-left: 0rem;
+    padding-right: 1rem;
+    cursor: unset;
+    transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
