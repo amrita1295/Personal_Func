@@ -2,7 +2,7 @@ import React from "react";
 import whatDoes from "../../../../../assets/what-does-fitness.png";
 const WhatDoesFitnessMean = () => {
   return (
-    <div className="pt-24 bg-[#FBF8F0] pb-12">
+    <div className="bg-[#FBF8F0] pb-12">
       <div className="mx-auto w-3/4">
         <img src={whatDoes} alt="" />
         <div tabIndex={0} className="collapse bg-[#FBF8F0] mt-8 ">

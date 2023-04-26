@@ -3,7 +3,7 @@ import "./MyStory.css";
 import story from "../../../../assets/mystory.png";
 const MyStory = () => {
   return (
-    <div className="mt-16 bg-contact pb-10 text-justify">
+    <div className="bg-contact pb-10 text-justify">
       <div class="container-1">
         <img src={story} alt="Snow" className="w-full" />
         <div class="centered font-semibold text-3xl">My story</div>
@@ -281,6 +281,51 @@ const MyStory = () => {
           achieve their full potential and perform at their best.
         </p>
       </div>
+
+
+
+      <div className="lg:px-12 mx-8 mt-9">
+        <div className="border-left flex items-center font-bold mt-8">
+          <p className="ml-3 text-[#000000]">Proud Parent</p>
+        </div>
+        <p className="mt-8">
+          In addition to my work in fitness, wellness, health tech, and
+          entrepreneurship, I am also a proud and dedicated parent of twins. As
+          a parent, my focus is on being patient and maintaining good fitness
+          levels to be on an optimum energy level.
+        </p>
+        <p className="mt-5">
+          Parenting twins can be a challenging and demanding physical and
+          emotional experience. It requires great patience, energy, and
+          dedication to provide each child's care and attention. That's why
+          maintaining a good fitness level is essential for me to be on an
+          optimum energy level and give the necessary attention to my children.
+        </p>
+        <p className="mt-5">
+          My objective is always to create a supportive and nurturing
+          environment for my children where they feel free to express themselves
+          and develop their unique personalities. I focus on building a solid
+          parent-child relationship based on empathy, respect, and positive
+          communication.
+        </p>
+        <p className="mt-5">
+          I also aim to strengthen my children physically and mentally by
+          teaching them the importance of caring for their health through proper
+          nutrition and exercise. By building healthy movement competencies
+          early, I hope to instil in them a lifelong love of physical activity
+          and healthy living.
+        </p>
+        p At the same time, I understand the importance of taking care of
+        myself, both physically and mentally. By maintaining a good fitness
+        level and practising self-care, I can stay energized and focused and
+        give my children the attention and care they need.
+        <p className="mt-5">
+          My experience as a parent of twins has taught me the importance of
+          patience, dedication and self-care to create a supportive and
+          nurturing environment for my children to grow and thrive.
+        </p>
+      </div>
+
 
       <div className="lg:px-12 mx-8 mt-9">
         <div className="border-left flex items-center font-bold mt-8">

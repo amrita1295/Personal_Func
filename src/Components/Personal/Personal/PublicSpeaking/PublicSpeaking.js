@@ -5,7 +5,7 @@ import publicSpeakingPic from "../../../../assets/publicSpeaking.png";
 
 const PublicSpeaking = () => {
   return (
-    <div className="pt-24 bg-[#FBF8F0] pb-12">
+    <div className=" bg-[#FBF8F0] pb-12">
       <div className="mx-auto w-3/4">
         <img src={publicSpeakingPic} alt="" />
 

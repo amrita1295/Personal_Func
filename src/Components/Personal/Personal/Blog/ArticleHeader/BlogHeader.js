@@ -31,30 +31,30 @@ const ArticleHeader = () => {
 
   // console.log(id);
 
-  const blogs = [
-    {
-      id: 1,
-      header: "Benfits of weight lifting",
-      img: blog7,
-      description:
-        "In terms of definition, lifting heavy weights is – “The lifting of heavyweights in a prescribed manner as an exercise or in athletic competition. However, it is much more than just an athletic activity.” Heavy weight lifting is seen as an activity that mostly helps people looking for gaining muscles or building muscle power but …",
-    },
-    {
-      id: 2,
-      header: "Why complete rest a solution to fix injuries",
-      img: blog8,
-      description:
-        "Do you have a hectic schedule? Does your work keep you occupied all day long? And has it been difficult for you to stay in touch with your workouts? If so, then we have a perfect solution for you! Today we will talk about ways and easy methods to stay fit even though you are …",
-    },
+  // const blogs = [
+  //   {
+  //     id: 1,
+  //     header: "Benfits of weight lifting",
+  //     img: blog7,
+  //     description:
+  //       "In terms of definition, lifting heavy weights is – “The lifting of heavyweights in a prescribed manner as an exercise or in athletic competition. However, it is much more than just an athletic activity.” Heavy weight lifting is seen as an activity that mostly helps people looking for gaining muscles or building muscle power but …",
+  //   },
+  //   {
+  //     id: 2,
+  //     header: "Why complete rest a solution to fix injuries",
+  //     img: blog8,
+  //     description:
+  //       "Do you have a hectic schedule? Does your work keep you occupied all day long? And has it been difficult for you to stay in touch with your workouts? If so, then we have a perfect solution for you! Today we will talk about ways and easy methods to stay fit even though you are …",
+  //   },
 
-    {
-      id: 3,
-      header: "Benfits of weight lifting",
-      img: blog9,
-      description:
-        "Whenever we suffer from a serious injury or severe pain, the first thing that strikes our mind is that we need rest. Over the years we have been conditioned to think that rest will solve all our problems, if we take complete rest, our body will get rid of all sorts of pains, fatigues and …",
-    },
-  ];
+  //   {
+  //     id: 3,
+  //     header: "Benfits of weight lifting",
+  //     img: blog9,
+  //     description:
+  //       "Whenever we suffer from a serious injury or severe pain, the first thing that strikes our mind is that we need rest. Over the years we have been conditioned to think that rest will solve all our problems, if we take complete rest, our body will get rid of all sorts of pains, fatigues and …",
+  //   },
+  // ];
 
   // useEffect(() => {
   //   fetch("http://localhost:4000/article")
@@ -67,7 +67,7 @@ const ArticleHeader = () => {
       <div className="ml-10 flex justify-start pt-24">
         <img src={dot} alt="" className="w-16" />
       </div>
-      <div className="pt-24 mt-[-160px]">
+      <div className=" mt-[-160px]">
         <div className="grid lg:grid-cols-2 lg:mx-48 mx-24 md:grid-cols-2 grid-cols-1 md:gap-12 lg:gap-0 gap-0 items-center">
           <div className="flex gap-5">
             <div className="flex gap-4">

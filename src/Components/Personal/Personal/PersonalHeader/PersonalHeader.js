@@ -10,7 +10,7 @@ import feature6 from '../../../../assets/personal-feature-6.png'
 
 const PersonalHeader = () => {
   return (
-    <div className="pb-16  pt-20">
+    <div className="pb-16">
       <div class="container-1">
         <img src={personalHeader} alt="Snow" className="w-full" />
         <div className="centered-1">
