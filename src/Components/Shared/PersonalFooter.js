@@ -11,10 +11,11 @@ const PersonalFooter = () => {
   return (
     <div className="bg-footer pb-10">
       <footer className="footer p-10 ">
-        <div>
-          <img src={rishiSignature} alt="" className="w-52" />
+        <div className="mx-auto lg:mx-0">
+          <img src={rishiSignature} alt="" className="w-44 " />
         </div>
-        <div>
+
+        <div className="mx-auto lg:mx-0">
           <Link to={"/myStory"} className="text-[#FBF8F0]">
             My Story
           </Link>
