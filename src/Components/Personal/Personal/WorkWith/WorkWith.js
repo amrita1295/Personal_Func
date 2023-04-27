@@ -103,7 +103,7 @@ const WorkWith = () => {
       </div>
 
       <p className="text-center text-[#000000] text-2xl font-semibold">
-        Connect with me for speaking engagements or health,
+        Connect with me for speaking engagements on health,
         <br /> entrepreneurship and innovation projects.
       </p>
 

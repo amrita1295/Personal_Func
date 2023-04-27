@@ -79,14 +79,14 @@ const PersonalNavbar = () => {
                       to="/home"
                       className="flex items-center px-3 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-100 "
                     >
-                      <span className="mx-1">HOME</span>
+                      <span className="mx-1">Home</span>
                     </Link>
 
                     <hr className="border-gray-200" />
 
                     <div className="flex items-center cursor-pointer p-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-100 ">
                       <Link to={"/myStory"}>
-                        <span className="mx-1">MY STORY</span>
+                        <span className="mx-1">My Story</span>
                       </Link>
                     </div>
 
@@ -94,7 +94,7 @@ const PersonalNavbar = () => {
 
                     <div className="flex items-center cursor-pointer p-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-100 ">
                       <Link to={"/myProjects"}>
-                        <span className="mx-1">MY PROJECTS</span>
+                        <span className="mx-1">My Projects</span>
                       </Link>
                     </div>
 
@@ -102,7 +102,7 @@ const PersonalNavbar = () => {
 
                     <div className="flex items-center cursor-pointer p-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-100 ">
                       <Link to={"/myBlogs"}>
-                        <span className="mx-1">MY BLOGS</span>
+                        <span className="mx-1">My Blogs</span>
                       </Link>
                     </div>
 
@@ -110,7 +110,7 @@ const PersonalNavbar = () => {
 
                     <div className="flex items-center cursor-pointer p-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-100 ">
                       <Link to={"/publicSpeaking"}>
-                        <span className="mx-1">PUBLIC SPEAKING</span>
+                        <span className="mx-1">Public Speaking</span>
                       </Link>
                     </div>
 
@@ -118,7 +118,16 @@ const PersonalNavbar = () => {
 
                     <div className="flex items-center cursor-pointer p-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-100 ">
                       <Link to={"/contact"}>
-                        <span className="mx-1">CONTACT</span>
+                        <span className="mx-1">Contact Me</span>
+                      </Link>
+                    </div>
+
+
+                    <hr className="border-gray-200" />
+
+                    <div className="flex items-center cursor-pointer p-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-100 ">
+                      <Link to={"/contact"}>
+                        <span className="mx-1">Xtraliving</span>
                       </Link>
                     </div>
                   </div>

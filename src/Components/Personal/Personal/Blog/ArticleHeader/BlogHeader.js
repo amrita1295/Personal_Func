@@ -285,6 +285,28 @@ const ArticleHeader = () => {
             <div className="p-6 rounded shadow-lg ">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={article2}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Superfood
+                </span>
+              </div>
+
+              <div className="mt-5 text-right">
+                <Link to={'/superFood'}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
                 src={article3}
                 alt=""
               />

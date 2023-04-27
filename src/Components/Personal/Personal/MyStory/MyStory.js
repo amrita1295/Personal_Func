@@ -357,6 +357,17 @@ const MyStory = () => {
           access to the tools and resources they need to lead healthier and
           happier lives.
         </p>
+
+
+
+        <p className="text-center text-[#000000] text-2xl font-semibold mt-12">
+        Connect with me for speaking engagements on health,
+        <br /> entrepreneurship and innovation projects.
+      </p>
+
+      <div className="flex justify-center mt-10 pb-16">
+        <button className="fill-btn ">FILL THE FORM</button>
+      </div>
       </div>
     </div>
   );

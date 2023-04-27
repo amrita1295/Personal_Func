@@ -25,22 +25,34 @@ const PersonalFooter = () => {
           <Link to={"/myBlogs"} className="text-[#FBF8F0]">
             MyBlogs
           </Link>
+        </div>
+        <div>
+          <Link to={"/contact"} className="text-[#FBF8F0]">
+            Products
+          </Link>
+
+          <Link to={"/publicSpeaking"} className="text-[#FBF8F0]">
+            Latest Videos
+          </Link>
+
           <Link to={"/publicSpeaking"} className="text-[#FBF8F0]">
             Public Speaking
           </Link>
+        </div>
+
+        <div>
           <Link to={"/contact"} className="text-[#FBF8F0]">
             Contact Me
           </Link>
-        </div>
-        {/* <div>
-          <Link to={"/blog"} className="text-[#FBF8F0]">Blog</Link>
-          <Link className="text-[#FBF8F0]" to={"/about"}>
-            About Us
+          <Link to={"/contact"} className="text-[#FBF8F0]">
+            Media
           </Link>
         </div>
-        <div>
-          <a className="text-[#FBF8F0]">Support</a>
-        </div> */}
+
+        <Link to={"/contact"} className="text-[#FBF8F0]">
+           XTRALIVING
+          </Link>
+
       </footer>
       <div className="border-bottom"></div>
 
