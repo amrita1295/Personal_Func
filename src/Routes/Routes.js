@@ -13,6 +13,8 @@ import InnovationEntrepreneurship from "../Components/Personal/Personal/Blog/Blo
 import GentleParenting from "../Components/Personal/Personal/Blog/BlogComponents/GentleParenting";
 import FuntionalHealth from "../Components/Personal/Personal/Blog/BlogComponents/FuntionalHealth";
 import Contact from "../Components/Contact/Contact";
+import Privacy from "../Components/Personal/Personal/Privacy/Privacy";
+import ErrorPage from "../Components/ErrorPage/ErrorPage";
 
 
 
@@ -21,6 +23,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -77,6 +80,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>,
+      },
+      {
+        path: '/privacy',
+        element: <Privacy></Privacy>,
       },
     ]
   },

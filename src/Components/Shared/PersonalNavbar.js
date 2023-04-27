@@ -54,16 +54,16 @@ const PersonalNavbar = () => {
 
     <div>
       <header className="text-gray-900 body-font shadow-sm bg-[#FBF8F0]">
-        <div className=" mx-auto flex flex-wrap py-3 lg:py-0 md:py-0 px-20 flex-col md:flex-row items-center ">
+        <div className=" mx-auto flex flex-wrap lg:py-0 md:py-0 lg:px-12 md:px-12  px-5 flex-row items-center ">
           <Link
             to="/"
             className="flex title-font font-medium items-center text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-500 mb-4 md:mb-0"
           >
-            <span className="ml-3 text-2xl font-bold ">
+            <span className="mt-3 text-2xl font-bold ">
               <img src={rishiSignature} alt="" className="pt-5 w-[95px]" />
             </span>
           </Link>
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <nav className="ml-auto flex flex-wrap items-center text-base justify-center">
             <>
               <div className="relative inline-block ">
                 <button
