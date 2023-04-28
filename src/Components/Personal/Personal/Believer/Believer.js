@@ -27,7 +27,7 @@ const Believer = () => {
       <h1 className="text-center believer-title pb-6">Early believers</h1>
 
 
-        <div className="text-white pb-20 m-2">
+        <div className="text-white pb-20 m-2 mt-8">
           <Slider {...settings}>
             <div>
               <img src={believer1} alt="" className="img"/>
@@ -48,9 +48,9 @@ const Believer = () => {
         </div>
 
 
-      {/* <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-8">
         <img src={arrow} alt="" />
-      </div> */}
+      </div>
     </div>
   );
 };
