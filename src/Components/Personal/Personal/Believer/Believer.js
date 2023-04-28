@@ -4,8 +4,8 @@ import believer1 from "../../../../assets/believer-1.png";
 import believer2 from "../../../../assets/believer-2.png";
 import believer3 from "../../../../assets/believer-3.png";
 import arrow from "../../../../assets/Arrow.png";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const Believer = () => {
