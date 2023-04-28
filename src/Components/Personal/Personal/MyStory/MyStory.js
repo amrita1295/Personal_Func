@@ -282,8 +282,6 @@ const MyStory = () => {
         </p>
       </div>
 
-
-
       <div className="lg:px-12 mx-8 mt-9">
         <div className="border-left flex items-center font-bold mt-8">
           <p className="ml-3 text-[#000000]">Proud Parent</p>
@@ -326,7 +324,6 @@ const MyStory = () => {
         </p>
       </div>
 
-
       <div className="lg:px-12 mx-8 mt-9">
         <div className="border-left flex items-center font-bold mt-8">
           <p className="ml-3 text-[#000000]">My mission</p>
@@ -358,16 +355,16 @@ const MyStory = () => {
           happier lives.
         </p>
 
-
-
         <p className="text-center text-[#000000] text-2xl font-semibold mt-12">
-        Connect with me for speaking engagements on health,
-        <br /> entrepreneurship and innovation projects.
-      </p>
+          Connect with me for speaking engagements on health,
+          <br /> entrepreneurship and innovation projects.
+        </p>
 
-      <div className="flex justify-center mt-10 pb-16">
-        <button className="fill-btn ">FILL THE FORM</button>
-      </div>
+        <div className="flex justify-center mt-10 pb-16">
+          <a href="https://zfrmz.in/1fPYZ8UFus5It0Dvp7Dl" target="blank">
+            <button className="fill-btn ">FILL THE FORM</button>
+          </a>
+        </div>
       </div>
     </div>
   );

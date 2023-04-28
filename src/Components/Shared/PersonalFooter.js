@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import rishiSignature from "../../assets/rishi-signature.png";
 
@@ -32,9 +33,9 @@ const PersonalFooter = () => {
             Products
           </Link>
 
-          <Link to={"/publicSpeaking"} className="text-[#FBF8F0] ml-7">
+          <a href="https://www.youtube.com/channel/UCXGr-W-Z9ubEZCy0abd2NQg" target="blank" className="text-[#FBF8F0] ml-7">
             Latest Videos
-          </Link>
+          </a>
 
           <Link to={"/publicSpeaking"} className="text-[#FBF8F0] ml-7">
             Public Speaking
@@ -65,17 +66,20 @@ const PersonalFooter = () => {
       </div>
 
       <div className="social flex lg:justify-end justify-center lg:mr-12 mr-0 lg:mt-0 mt-4">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/xrishi/" target="blank">
           <FaLinkedin className="mr-5"></FaLinkedin>
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/x.rishi/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR0hHCrnwgAgLkIWdZjD3cJdNhqG-GVWARl9zeLIhSzKnYL3hG6kPwePlBk" target="blank">
           <FaInstagramSquare className="mr-5"></FaInstagramSquare>
         </a>
-        <a href="#">
+        <a href="https://twitter.com/rishi_xpl" target="blank">
           <FaTwitter className="mr-5"></FaTwitter>
         </a>
-        <a href="#">
+        <a href="https://www.facebook.com/rishikesh.kumar.75054" target="blank">
           <FaFacebook className="mr-5"></FaFacebook>
+        </a>
+        <a  href="https://youtube.com/@rishi9566" target="blank">
+          <FaYoutube className="mr-5"></FaYoutube>
         </a>
       </div>
     </div>

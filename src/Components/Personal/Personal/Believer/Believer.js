@@ -13,7 +13,7 @@ const Believer = () => {
     className: "center",
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 3,
+    slidesToShow: 4,
     swipeToSlide: true,
     afterChange: function (index) {
       console.log(
@@ -27,7 +27,7 @@ const Believer = () => {
       <h1 className="text-center believer-title pb-6">Early believers</h1>
 
 
-        <div className="text-white pb-20">
+        <div className="text-white pb-20 m-2">
           <Slider {...settings}>
             <div>
               <img src={believer1} alt="" className="img"/>

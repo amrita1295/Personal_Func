@@ -1,7 +1,7 @@
 import React from "react";
 import "./Vision.css";
 
-import video from "../../../../assets/customer-feedback.mp4";
+import video from "../../../../assets/rishi-video.mp4";
 import { DefaultPlayer } from "react-html5video";
 
 const Vision = () => {

@@ -14,7 +14,7 @@ const PersonalHeader = () => {
       <div class="container-1">
         <img src={personalHeader} alt="Snow" className="w-full" />
         <div className="centered-1">
-          <div class=" font-semibold text-xl lg:text-4xl text-left">
+          <div class=" font-semibold text-sm lg:text-4xl text-left">
             Cravings and ignorance lie at the root of
             <br />
             suffering. So even if you indulge, be aware :)

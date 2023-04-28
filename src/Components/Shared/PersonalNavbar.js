@@ -4,6 +4,7 @@ import menu from "../../assets/Menu.png";
 import { Link } from "react-router-dom";
 
 import rishiSignature from "../../assets/rishi-nav.png";
+import logo from "../../assets/logo.png";
 
 const PersonalNavbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -59,8 +60,8 @@ const PersonalNavbar = () => {
             to="/"
             className="flex title-font font-medium items-center text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-500 mb-4 md:mb-0"
           >
-            <span className="mt-3 text-2xl font-bold ">
-              <img src={rishiSignature} alt="" className="pt-5 w-[95px]" />
+            <span className="lg:mt-0 md:mt-0 mt-3 text-2xl font-bold ">
+              <img src={logo} alt="" className="lg:py-5 md:py-5 pt-2 w-[60px]" />
             </span>
           </Link>
           <nav className="ml-auto flex flex-wrap items-center text-base justify-center">
