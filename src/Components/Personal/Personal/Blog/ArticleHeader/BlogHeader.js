@@ -86,8 +86,8 @@ const ArticleHeader = () => {
           <img src={dot} alt="" className="w-16" />
         </div>
         <div className=" mt-[-160px]">
-          <div className="grid lg:grid-cols-2 lg:mx-48 mx-24 md:grid-cols-2 grid-cols-1 md:gap-12 lg:gap-0 gap-0 items-center">
-            <div className="flex gap-5">
+          <div className="grid lg:grid-cols-2 lg:mx-48 mx-12 grid-cols-1 md:gap-12 lg:gap-0 gap-0 items-center justify-items-center lg:justify-items-start">
+            <div className="flex  gap-5">
               <div className="flex gap-4">
                 <div>
                   <PhotoProvider>
@@ -278,12 +278,12 @@ const ArticleHeader = () => {
           />
           <div className="flex justify-start">
             <span className=" text-sm font-bold leading-none ">
-              Physical fitness in senior women
+            Superfood
             </span>
           </div>
 
           <div className="mt-5 text-right">
-            <Link to={'/physicalFitness'}>
+            <Link to={'/superFood'}>
               <button className="">
                 <img src={blogArrow} alt="" className="w-24" />
               </button>
@@ -300,12 +300,12 @@ const ArticleHeader = () => {
           />
           <div className="flex justify-start">
             <span className=" text-sm font-bold leading-none ">
-              Physical fitness in senior women
+            Nutrition for injury recovery
             </span>
           </div>
 
           <div className="mt-5 text-right">
-            <Link to={'/physicalFitness'}>
+            <Link to={'/nutritionInjury'}>
               <button className="">
                 <img src={blogArrow} alt="" className="w-24" />
               </button>
