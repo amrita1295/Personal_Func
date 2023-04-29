@@ -18,7 +18,7 @@ const FuntionalHealth = () => {
             </div>
           </div>
           <div className="collapse-content">
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               Functional health is an emerging approach to healthcare that
               emphasizes the optimal functioning of the body and its systems
               rather than simply treating symptoms or illnesses. This approach
@@ -27,7 +27,7 @@ const FuntionalHealth = () => {
               surgery.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               Functional health practitioners believe that the body is an
               interconnected system of organs, cells, and tissues and that when
               one part of the body is not functioning correctly, it can also
@@ -36,7 +36,7 @@ const FuntionalHealth = () => {
               treating the symptoms.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               Functional health practitioners use various tools and techniques
               to help patients achieve optimal health. These may include dietary
               changes, nutritional supplements, exercise programs, stress
@@ -46,14 +46,14 @@ const FuntionalHealth = () => {
               health over time.
             </p>
 
-            <p className="mt-5 ">
+            <p className="mt-5 text-justify">
               One of the fundamental principles of functional health is the
               belief that the body has an innate ability to heal itself.
               Functional health practitioners believe patients can achieve
               optimal health and wellness by supporting the body's natural
               healing processes.
             </p>
-            <p className="mt-5 ">
+            <p className="mt-5 text-justify">
               Functional health is often used as a complementary approach to
               traditional medicine. It is not meant to replace conventional
               medicine but to work alongside it to help patients achieve better
@@ -62,14 +62,14 @@ const FuntionalHealth = () => {
               techniques, functional health can help patients achieve better
               health outcomes and improve their quality of life.
             </p>
-            <p className="mt-5 ">
+            <p className="mt-5 text-justify">
               If you are interested in functional health, working with a
               qualified practitioner who can guide you through the process is
               essential. Look for someone with experience in this area and
               willing to work with you to develop a customized plan that meets
               your unique needs and goals.
             </p>
-            <p className="mt-5 ">
+            <p className="mt-5 text-justify">
               In conclusion, functional health is an approach to healthcare that
               emphasizes the optimal functioning of the body and its systems. It
               focuses on identifying and treating the root causes of health
