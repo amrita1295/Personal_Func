@@ -15,6 +15,7 @@ import FuntionalHealth from "../Components/Personal/Personal/Blog/BlogComponents
 import Contact from "../Components/Contact/Contact";
 import Privacy from "../Components/Personal/Personal/Privacy/Privacy";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
+import Media from "../Components/Personal/Personal/Media/Media";
 
 
 
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
       {
         path: '/privacy',
         element: <Privacy></Privacy>,
+      },
+      {
+        path: '/media',
+        element: <Media></Media>,
       },
     ]
   },
