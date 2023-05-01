@@ -34,7 +34,7 @@ const PublicSpeaking = () => {
               individuals to take action towards improving their health and
               well-being.
             </p>
-            <p className="mt-4">
+            <p className="mt-4 text-justify">
               Rishikesh has expertise in various topics related to health,
               nutrition, sports, fitness, parenting, innovation, and
               entrepreneurship. Through his experience as the founder of
@@ -44,14 +44,14 @@ const PublicSpeaking = () => {
               presentations.
             </p>
 
-            <p className="mt-4">
+            <p className="mt-4 text-justify">
               His health and performance work aligns with his electronics
               engineering background. Rishikesh believes technology can be a
               powerful tool in promoting health and well-being, and he is always
               looking for ways to leverage technology to improve health
               outcomes.
             </p>
-            <p className="mt-4">
+            <p className="mt-4 text-justify">
               Rishikesh's public speaking engagements are aimed at helping
               individuals understand the importance of a healthy lifestyle and
               how it can improve their overall well-being. He believes that
@@ -59,7 +59,7 @@ const PublicSpeaking = () => {
               towards living a healthier and more fulfilling life.
             </p>
 
-            <p className="mt-4">
+            <p className="mt-4 text-justify">
               Functional health is often used as a complementary approach to
               traditional medicine. It is not meant to replace conventional
               medicine but to work alongside it to help patients achieve better
@@ -69,7 +69,7 @@ const PublicSpeaking = () => {
               health outcomes and improve their quality of life.
             </p>
 
-            <p className="mt-4">
+            <p className="mt-4 text-justify">
               If you are interested in having Rishikesh speak at your event,
               please do not hesitate to get in touch. He would be happy to
               discuss the topics he covers in more detail and explore ways in

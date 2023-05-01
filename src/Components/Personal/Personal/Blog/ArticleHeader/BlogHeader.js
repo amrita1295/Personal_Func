@@ -25,28 +25,27 @@ import right from "../../../../../assets/right.png";
 import { Link } from "react-router-dom";
 
 const ArticleHeader = () => {
-
   const settings = {
     arrows: false,
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
-    customPaging: i => (
-      <div style={{ width: "200px", height: "200px"}}>
-        {i === 0 ? (
+    // customPaging: i => (
+    //   <div style={{ width: "200px", height: "200px"}}>
+    //     {i === 0 ? (
           
-            <img src={left} alt="Left arrow" />
+    //         <img src={left} alt="Left arrow" />
           
-        ) : (
+    //     ) : (
           
-            <img src={right} alt="Right arrow" />
+    //         <img src={right} alt="Right arrow" />
           
-        )}
-      </div>
-    ),
+    //     )}
+    //   </div>
+    // ),
 
     responsive: [
       {
@@ -55,16 +54,16 @@ const ArticleHeader = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 3,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
@@ -86,8 +85,8 @@ const ArticleHeader = () => {
         <img src={dot} alt="" className="w-16" />
       </div>
       <div className=" mt-[-160px]">
-        <div className="grid lg:grid-cols-2 lg:mx-48 mx-24 md:grid-cols-2 grid-cols-1 md:gap-12 lg:gap-0 gap-0 items-center">
-          <div className="flex gap-5">
+        <div className="grid lg:grid-cols-2 lg:mx-48 mx-12 grid-cols-1 md:gap-12 lg:gap-0 gap-0 items-center justify-items-center lg:justify-items-start">
+          <div className="flex  gap-5">
             <div className="flex gap-4">
               <div>
                 <PhotoProvider>
@@ -153,16 +152,217 @@ const ArticleHeader = () => {
             </Link>
           </div>
         </div>
-
-
       </div>
 
       <div className="bg-blog-1">
         <h1 className="text-center article-title pt-12">New article</h1>
 
-
-
         <div className="lg:px-10 md:px-6 py-12 ">
+          <div className="parent grid gap-8 row-gap-5 lg:grid-cols-3 lg:row-gap-8 md:grid-cols-2">
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={blog7}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Innovation and entrepreneurship
+                </span>
+              </div>
+
+              <p className="text-justify mt-4">
+                Innovation and entrepreneurship are two concepts that are
+                closely intertwined yet distinct. While innovation refers to
+                creating new ideas, products, services, or processes,
+                entrepreneurship refers to bringing those ideas to the market
+                and building a business around them...
+              </p>
+
+              <div className="mt-5 text-right">
+                <Link to={"/innovationEntrepreneurship"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={blog8}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Gentle parenting
+                </span>
+              </div>
+
+              <p className="text-justify mt-4">
+                Gentle parenting is an approach to raising children rooted in
+                respect, empathy, and understanding. It focuses on building a
+                strong, loving relationship between parent and child and
+                fostering an environment that supports a child's emotional,
+                physical, and intellectual growth...
+              </p>
+
+              <div className="mt-5 text-right">
+                <Link to={"/gentleParenting"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={blog9}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Functional health
+                </span>
+              </div>
+
+              <p className="text-justify mt-4">
+                Functional health is an emerging approach to healthcare that
+                emphasizes the optimal functioning of the body and its systems
+                rather than simply treating symptoms or illnesses. This approach
+                looks at the root causes of health problems and seeks to address
+                them...{" "}
+              </p>
+
+              <div className="mt-5 text-right">
+                <Link to={"/functionalHealth"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-center mt-12">
+            <img src={arrow} alt="" />
+          </div>
+        </div>
+
+        {/* testing */}
+        <div className="lg:px-10 md:px-6 py-12 ">
+          <Slider {...settings}>
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={article1}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Physical fitness in senior women
+                </span>
+              </div>
+
+              <div className="mt-5 text-right">
+                <Link to={"/physicalFitness"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={article2}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Superfood
+                </span>
+              </div>
+
+              <div className="mt-5 text-right">
+                <Link to={"/superFood"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={article3}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Nutrition for injury recovery
+                </span>
+              </div>
+
+              <div className="mt-5 text-right">
+                <Link to={"/nutritionInjury"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={article1}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Physical fitness in senior women
+                </span>
+              </div>
+
+              <div className="mt-5 text-right">
+                <Link to={"/physicalFitness"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="p-6 rounded shadow-lg ">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={article2}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                  Physical fitness in senior women
+                </span>
+              </div>
+
+              <div className="mt-5 text-right">
+                <Link to={"/physicalFitness"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </Slider>
+        </div>
+
+        {/* <div className="lg:px-10 md:px-6 py-12 ">
           <div className="parent grid gap-8 row-gap-5 lg:grid-cols-3 lg:row-gap-8 md:grid-cols-2">
             <div className="p-6 rounded shadow-lg ">
               <img
@@ -244,7 +444,7 @@ const ArticleHeader = () => {
 
 
         {/* testing */}
-        <div className="lg:px-10 md:px-6 py-12 ">
+        {/* <div className="lg:px-10 md:px-6 py-12 ">
 
           <Slider {...settings}>
 
@@ -360,17 +560,14 @@ const ArticleHeader = () => {
 
           </Slider>
 
-        </div>
+        </div> */}
 
 
 
 
       </div>
-
-
     </div>
   );
 };
-
 
 export default ArticleHeader;

@@ -18,7 +18,7 @@ const GentleParenting = () => {
             </div>
           </div>
           <div className="collapse-content">
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               Gentle parenting is an approach to raising children rooted in
               respect, empathy, and understanding. It focuses on building a
               strong, loving relationship between parent and child and fostering
@@ -26,7 +26,7 @@ const GentleParenting = () => {
               intellectual growth.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               At the core of gentle parenting is the belief that children are
               unique individuals with their thoughts, feelings, and needs.
               Instead of controlling or dominating a child's behaviour through
@@ -35,7 +35,7 @@ const GentleParenting = () => {
               everyone's needs.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               One of the key principles of gentle parenting is the use of
               positive reinforcement instead of punishment. This means that
               instead of punishing a child for behaviour that a parent deems
@@ -54,7 +54,7 @@ const GentleParenting = () => {
               a safe and supportive environment for a child's emotional growth.
             </p>
 
-            <p className="mt-5 ">
+            <p className="mt-5  text-justify">
               Overall, gentle parenting is an approach that is rooted in love,
               respect, and empathy. It recognizes that each child is unique and
               deserving of compassion and understanding. By fostering a

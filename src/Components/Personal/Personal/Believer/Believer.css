@@ -16,12 +16,23 @@
 
 .slick-prev{
     z-index: 100;
-    left: 20px !important;
+    left: -50px !important;
 }
 
 .slick-next{
     z-index: 100;
-    right: 20px !important;
+    right: -50px !important;
 }
 
+.slick-next:before, .slick-prev:before {
+    color: black;
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 24px;
+}
+
+.img {
+    display: block;
+    margin: auto;
+}
 

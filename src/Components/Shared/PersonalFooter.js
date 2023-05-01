@@ -46,7 +46,7 @@ const PersonalFooter = () => {
           <Link to={"/contact"} className="text-[#FBF8F0]">
             Contact Me
           </Link>
-          <Link to={"/contact"} className="text-[#FBF8F0]">
+          <Link to={"/media"} className="text-[#FBF8F0]">
             Media
           </Link>
         </div>
