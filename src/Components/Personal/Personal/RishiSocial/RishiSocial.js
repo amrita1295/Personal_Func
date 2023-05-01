@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const RishiSocial = () => {
   return (
-    <div className="pb-20">
+    <div className="pb-20 social-bg">
       <div className="hero-3 bg-[#20284E] text-white">
         <div className="hero-content text-center">
           <div className="max-w-md">

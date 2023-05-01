@@ -20,7 +20,7 @@ const InnovationEntrepreneurship = () => {
             </div>
           </div>
           <div className="collapse-content">
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               {" "}
               Innovation and entrepreneurship are two concepts that are closely
               intertwined yet distinct. While innovation refers to creating new
@@ -31,7 +31,7 @@ const InnovationEntrepreneurship = () => {
               for the growth and success of any business.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               Innovation is the driving force behind any business that wants to
               stay competitive and relevant in today's fast-paced world. It is
               the key to creating new products and services that meet customers'
@@ -41,7 +41,7 @@ const InnovationEntrepreneurship = () => {
               external partners, or by simply experimenting with new ideas.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               However, innovation alone is not enough to create a successful
               business. Entrepreneurship is essential to turn those innovative
               ideas into a profitable venture. Entrepreneurship involves:
@@ -59,12 +59,12 @@ const InnovationEntrepreneurship = () => {
               </p>
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               It requires creativity, strategic thinking, risk-taking, and
               resilience.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               Entrepreneurship and innovation are also interdependent.
               Entrepreneurs need to constantly innovate to stay ahead of the
               competition, while innovators need entrepreneurs to bring their
@@ -73,7 +73,7 @@ const InnovationEntrepreneurship = () => {
               to think outside the box and develop new ideas.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               In conclusion, innovation and entrepreneurship are two essential
               components for the growth and success of any business. Innovation
               creates new ideas and opportunities, while entrepreneurship brings
@@ -83,7 +83,7 @@ const InnovationEntrepreneurship = () => {
               the changing needs of their customers.
             </p>
 
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               Innovation and entrepreneurship are not limited to large
               corporations or tech startups. They are relevant to any business,
               regardless of size or industry. Small businesses can benefit
