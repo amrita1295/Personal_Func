@@ -16,6 +16,7 @@ import Contact from "../Components/Contact/Contact";
 import Privacy from "../Components/Personal/Personal/Privacy/Privacy";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
 import Media from "../Components/Personal/Personal/Media/Media";
+import Events from "../Components/Personal/Personal/Events/Events";
 
 
 
@@ -89,6 +90,10 @@ const router = createBrowserRouter([
       {
         path: '/media',
         element: <Media></Media>,
+      },
+      {
+        path: '/events',
+        element: <Events></Events>,
       },
     ]
   },
