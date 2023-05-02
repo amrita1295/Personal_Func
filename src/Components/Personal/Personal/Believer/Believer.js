@@ -70,8 +70,8 @@ const Believer = () => {
           </PhotoProvider>
 
           <PhotoProvider>
-            <PhotoView src={believer3}>
-              <img src={believer3} alt="" className="img cursor-pointer" />
+            <PhotoView src={believer26}>
+              <img src={believer26} alt="" className="img cursor-pointer" />
             </PhotoView>
           </PhotoProvider>
 
@@ -188,8 +188,8 @@ const Believer = () => {
             </PhotoView>
           </PhotoProvider>
           <PhotoProvider>
-            <PhotoView src={believer26}>
-              <img src={believer26} alt="" className="img cursor-pointer" />
+            <PhotoView src={believer3}>
+              <img src={believer3} alt="" className="img cursor-pointer" />
             </PhotoView>
           </PhotoProvider>
           <PhotoProvider>
