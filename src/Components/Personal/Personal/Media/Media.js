@@ -48,10 +48,10 @@ const Media = () => {
           </div>
         </Slider>
         <div style={{ textAlign: "center" }}>
-          <button className="button mx-8 mt-6" onClick={handleNext} >
+          <button className="button mx-8 mt-6" onClick={handlePrev} >
             <img src={left} />
           </button>
-          <button className="button" onClick={handlePrev}>
+          <button className="button" onClick={handleNext}>
           <img src={right} />
           </button>
         </div>
