@@ -67,16 +67,18 @@ const MyStory = () => {
         </p>
 
         <p className="mt-5">
-          After schooling, I pursued a Bachelor's in Electronics Engineering
+          After schooling, I pursued a <span className="font-bold">
+          Bachelor's in Electronics Engineering
           from the prestigious National Institute of Technology (NIT) in Bhopal.
-          My time at NIT was an enriching experience that enhanced my technical
+          </span> {" "}
+           My time at NIT was an enriching experience that enhanced my technical
           knowledge and exposed me to a diverse community of students.
         </p>
 
         <p className="mt-5">
-          Later, I pursued an MBA from KJ Somaiya Institute of Management
+          Later, I pursued an <span className="font-bold">MBA from KJ Somaiya Institute of Management
           Studies and Research, Mumbai, one of the leading B-schools in the
-          country. My MBA program was a transformative experience that broadened
+          country.</span> My MBA program was a transformative experience that broadened
           my horizons and helped me develop a business-oriented perspective. I
           had the opportunity to work on real-life business problems and gained
           practical knowledge through internships and industry interactions. My
