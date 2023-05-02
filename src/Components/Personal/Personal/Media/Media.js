@@ -28,7 +28,6 @@ const Media = () => {
   const handleNext = () => {
     sliderRef.current.slickNext();
   };
-
   const handlePrev = () => {
     sliderRef.current.slickPrev();
   };
