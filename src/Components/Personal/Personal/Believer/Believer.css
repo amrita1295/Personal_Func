@@ -32,7 +32,9 @@
 }
 
 .img {
+    max-width: 95%;
     display: block;
     margin: auto;
 }
+
 
