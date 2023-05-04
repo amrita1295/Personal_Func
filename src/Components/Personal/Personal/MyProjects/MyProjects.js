@@ -101,10 +101,10 @@ const MyProjects = () => {
           </div>
           <div className="collapse-content">
             <p className="text-justify mt-4">
-              Through their work in health tech, Rishi and their team are
+              Rishi and his team are
               developing personalized solutions that leverage data and insights
               to help individuals achieve their fitness and wellness goals. They
-              can use AI and ML algorithms to analyze data from wearables,
+              use AI and ML algorithms to analyze data from wearables,
               fitness trackers, and other devices to provide customized
               training, nutrition, and recovery recommendations tailored to an
               individual's unique needs and goals. They also use IoT and
@@ -122,10 +122,7 @@ const MyProjects = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-8">
-        <img src={"arrow"} alt="" />
-      </div>
-
+ 
       <p className="text-center text-[#000000] text-2xl font-semibold mt-12">
         Connect with me for speaking engagements on health,
         <br /> entrepreneurship and innovation projects.

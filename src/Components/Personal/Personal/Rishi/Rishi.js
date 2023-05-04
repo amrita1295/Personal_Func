@@ -42,12 +42,12 @@ const Rishi = () => {
           <div className="text-center">
             <img src={rishi2} alt="" className="w-28 mx-auto" />
             <h1 className="mt-3 text-[#000000] font-semibold">Performance Coach</h1>
-            <p className="text-justify mt-3">Rishi has been a consultant for Govt. of Maharashtra and Gopichand Academy as a performance improvement specialist. He has personally coached young athletes, adults and Olympic athletes. He has planned and executed a few national-level campaigns to raise health awareness. He was a consultant for setting up a few leading Hitech performances in India. Ranked 16th in India in CrossFit Games 2015</p>
+            <p className="text-justify mt-3">Rishi has been a consultant for Govt. of Maharashtra and Gopichand Academy as a performance improvement specialist. He has personally coached young athletes, adults and Olympic athletes. He has planned and executed a few national-level campaigns to raise health awareness. He was a consultant for setting up a few leading Hitech performance-centers in India. Ranked 16th in India in CrossFit Games 2015</p>
           </div>
           <div className="text-center">
             <img src={rishi3} alt="" className="w-28 mx-auto" />
             <h1 className="mt-3 text-[#000000] font-semibold">Health Coach</h1>
-            <p className="text-justify mt-3">He is a certified Crossfit Coach (Bangkok), Crossfit Kids Coach (Madison, USA) and Precision Nutrition (Canada). He has coached 10K plus adults and kids from corporate and schools. Rishi is actively learning about human growth and development for his twins-D&V. In return, he has been helping them with movement competencies and nutrition. He was a consultant for setting up a few leading Hitech performances in India.</p>
+            <p className="text-justify mt-3">He is a certified Crossfit Coach (Bangkok), Crossfit Kids Coach (Madison, USA) and Precision Nutrition (Canada). He has coached 10K plus adults and kids from corporate and schools. Rishi is actively learning about human growth and development for his twins-D&V. In return, he has been helping them with movement competencies and nutrition. </p>
           </div>
           <div className="text-center">
             <img src={rishi4} alt="" className="w-28 mx-auto" />
