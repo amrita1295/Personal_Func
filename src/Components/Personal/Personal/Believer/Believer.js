@@ -32,9 +32,12 @@ import believer29 from "../../../../assets/believer-29.png";
 import believer30 from "../../../../assets/believer-30.png";
 import believer31 from "../../../../assets/believer-31.png";
 import believer32 from "../../../../assets/believer-32.png";
+import believer33 from "../../../../assets/believer-33.png";
 import arrow from "../../../../assets/Arrow.png";
+
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
+
 import Slider from "react-slick";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 const Believer = () => {
@@ -220,6 +223,11 @@ const Believer = () => {
           <PhotoProvider>
             <PhotoView src={believer32}>
               <img src={believer32} alt="" className="img cursor-pointer" />
+            </PhotoView>
+          </PhotoProvider>
+          <PhotoProvider>
+            <PhotoView src={believer33}>
+              <img src={believer33} alt="" className="img cursor-pointer" />
             </PhotoView>
           </PhotoProvider>
         </Slider>

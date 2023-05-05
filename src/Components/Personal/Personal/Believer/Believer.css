@@ -1,40 +1,39 @@
-.bg-believer{
-    background-color: #FBF8F0;
+.bg-believer {
+  background-color: #fbf8f0;
 }
 
-.believer-title{
-    color: #000000;
-    font-size: 40px;
-    font-family: "Oswald", sans-serif;
-    font-weight: 700;
+.believer-title {
+  color: #000000;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
 }
+
 
 
 .slick-arrow {
-    color: black;
+  color: black;
 }
 
 .slick-prev{
-    z-index: 100;
-    left: -50px !important;
+  z-index: 100;
+  left: -50px !important;
 }
 
 .slick-next{
-    z-index: 100;
-    right: -50px !important;
+  z-index: 100;
+  right: -50px !important;
 }
 
 .slick-next:before, .slick-prev:before {
-    color: black;
+  color: black;
 }
 .slick-next:before, .slick-prev:before {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .img {
-    max-width: 95%;
-    display: block;
-    margin: auto;
+  max-width: 95%;
+  display: block;
+  margin: auto;
 }
-
-
