@@ -66,10 +66,12 @@ const Events = () => {
                   <h1 className="ml-7 font-bold">Raise an Athlete​</h1>
                 </div>
               </Link>
-              <div>
-                <img src={pic5} alt="" className="" />
-                <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
-              </div>
+              <Link to={'/goGirl'}>
+                <div>
+                  <img src={pic5} alt="" className="" />
+                  <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
+                </div>
+              </Link>
               <div>
                 <img src={pic6} alt="" className="" />
                 <h1 className="ml-7 font-bold">
@@ -97,7 +99,7 @@ const Events = () => {
                   </h1>
                 </div>
               </Link>
-              <Link to={'/gymnasticsInIndia'}>
+              <Link to={"/gymnasticsInIndia"}>
                 <div>
                   <img src={pic10} alt="" className="" />
                   <h1 className="ml-7 font-bold">Gymnastics in India</h1>

@@ -22,6 +22,7 @@ import MyopiaAwareness from "../Components/Personal/Personal/Media/AllMedia's/My
 import EyeHealthSeminar from "../Components/Personal/Personal/Media/AllMedia's/EyeHealthSeminar/EyeHealthSeminar";
 import ReducingTheRiskOfInjury from "../Components/Personal/Personal/Media/AllMedia's/ReducingTheRiskOfInjury/ReducingTheRiskOfInjury";
 import GymnasticsInIndia from "../Components/Personal/Personal/Media/AllMedia's/GymnasticsInIndia/GymnasticsInIndia";
+import GoGirl from "../Components/Personal/Personal/Media/AllMedia's/GoGirl/GoGirl";
 
 
 
@@ -124,6 +125,10 @@ const router = createBrowserRouter([
       {
         path: '/gymnasticsInIndia',
         element: <GymnasticsInIndia></GymnasticsInIndia>,
+      },
+      {
+        path: '/goGirl',
+        element: <GoGirl></GoGirl>,
       },
     ]
   },
