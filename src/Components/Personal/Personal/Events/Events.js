@@ -66,7 +66,7 @@ const Events = () => {
                   <h1 className="ml-7 font-bold">Raise an Athlete​</h1>
                 </div>
               </Link>
-              <Link to={'/goGirl'}>
+              <Link to={"/goGirl"}>
                 <div>
                   <img src={pic5} alt="" className="" />
                   <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
@@ -105,10 +105,12 @@ const Events = () => {
                   <h1 className="ml-7 font-bold">Gymnastics in India</h1>
                 </div>
               </Link>
-              <div>
-                <img src={pic11} alt="" className="" />
-                <h1 className="ml-7 font-bold">eNERGIZE quiz competition</h1>
-              </div>
+              <Link to={'/quizCompetition'}>
+                <div>
+                  <img src={pic11} alt="" className="" />
+                  <h1 className="ml-7 font-bold">eNERGIZE quiz competition</h1>
+                </div>
+              </Link>
             </div>
 
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
