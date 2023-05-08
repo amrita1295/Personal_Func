@@ -12,6 +12,7 @@ import pic9 from "../../../../assets/risk-of-injury.png";
 import pic10 from "../../../../assets/gymnastic-india.png";
 import pic11 from "../../../../assets/event-1.png";
 import pic12 from "../../../../assets/Myopia awareness talk.png";
+import { Link } from "react-router-dom";
 
 const Events = () => {
   return (
@@ -47,8 +48,6 @@ const Events = () => {
         </div>
       </div>
 
-
-
       <div className="mx-auto w-10/12">
         <div
           tabIndex={0}
@@ -61,10 +60,12 @@ const Events = () => {
           </div>
           <div className="collapse-content">
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-              <div>
-                <img src={pic4} alt="" className="" />
-                <h1 className="ml-7 font-bold">Raise an Athlete​</h1>
-              </div>
+              <Link to={"/raiseOnAthlete"}>
+                <div>
+                  <img src={pic4} alt="" className="" />
+                  <h1 className="ml-7 font-bold">Raise an Athlete​</h1>
+                </div>
+              </Link>
               <div>
                 <img src={pic5} alt="" className="" />
                 <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
@@ -72,14 +73,12 @@ const Events = () => {
               <div>
                 <img src={pic6} alt="" className="" />
                 <h1 className="ml-7 font-bold">
-                eNERGIZE fitness championship
+                  eNERGIZE fitness championship
                 </h1>
               </div>
               <div>
                 <img src={pic7} alt="" className="" />
-                <h1 className="ml-7 font-bold">
-                eNERGIZE Bootcamp
-                </h1>
+                <h1 className="ml-7 font-bold">eNERGIZE Bootcamp</h1>
               </div>
             </div>
 
@@ -94,23 +93,21 @@ const Events = () => {
               </div>
               <div>
                 <img src={pic10} alt="" className="" />
-                <h1 className="ml-7 font-bold">
-                Gymnastics in India
-                </h1>
+                <h1 className="ml-7 font-bold">Gymnastics in India</h1>
               </div>
               <div>
                 <img src={pic11} alt="" className="" />
-                <h1 className="ml-7 font-bold">
-                eNERGIZE quiz competition
-                </h1>
+                <h1 className="ml-7 font-bold">eNERGIZE quiz competition</h1>
               </div>
             </div>
 
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-              <div>
-                <img src={pic12} alt="" className="" />
-                <h1 className="ml-7 font-bold">Myopia awareness talk​</h1>
-              </div>
+              <Link to={'/myopiaAwareness'}>
+                <div>
+                  <img src={pic12} alt="" className="" />
+                  <h1 className="ml-7 font-bold">Myopia awareness talk​</h1>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

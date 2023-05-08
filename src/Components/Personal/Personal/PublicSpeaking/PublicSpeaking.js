@@ -80,9 +80,7 @@ const PublicSpeaking = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-8">
-        <img src={"arrow"} alt="" />
-      </div>
+     
     </div>
   );
 };

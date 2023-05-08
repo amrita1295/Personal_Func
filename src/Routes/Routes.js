@@ -15,8 +15,11 @@ import FuntionalHealth from "../Components/Personal/Personal/Blog/BlogComponents
 import Contact from "../Components/Contact/Contact";
 import Privacy from "../Components/Personal/Personal/Privacy/Privacy";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
-import Media from "../Components/Personal/Personal/Media/Media";
+import Media from "../Components/Personal/Personal/Media/Media/Media";
 import Events from "../Components/Personal/Personal/Events/Events";
+import RaiseOnAthlete from "../Components/Personal/Personal/Media/AllMedia's/RaiseOnAthlete/RaiseOnAthlete";
+import MyopiaAwareness from "../Components/Personal/Personal/Media/AllMedia's/MyopiaAwareness/MyopiaAwareness";
+
 
 
 
@@ -94,6 +97,18 @@ const router = createBrowserRouter([
       {
         path: '/events',
         element: <Events></Events>,
+      },
+
+
+      //all the media's components
+
+      {
+        path: '/raiseOnAthlete',
+        element: <RaiseOnAthlete></RaiseOnAthlete>,
+      },
+      {
+        path: '/myopiaAwareness',
+        element: <MyopiaAwareness></MyopiaAwareness>,
       },
     ]
   },
