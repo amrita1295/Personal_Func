@@ -83,18 +83,26 @@ const Events = () => {
             </div>
 
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-              <div>
-                <img src={pic8} alt="" className="" />
-                <h1 className="ml-7 font-bold">Eye health seminar​</h1>
-              </div>
-              <div>
-                <img src={pic9} alt="" className="" />
-                <h1 className="ml-7 font-bold">Reducing the risk of injury</h1>
-              </div>
-              <div>
-                <img src={pic10} alt="" className="" />
-                <h1 className="ml-7 font-bold">Gymnastics in India</h1>
-              </div>
+              <Link to={"/eyeHealthSeminar"}>
+                <div>
+                  <img src={pic8} alt="" className="" />
+                  <h1 className="ml-7 font-bold">Eye health seminar​</h1>
+                </div>
+              </Link>
+              <Link to={"/reducingTheRiskOfInjury"}>
+                <div>
+                  <img src={pic9} alt="" className="" />
+                  <h1 className="ml-7 font-bold">
+                    Reducing the risk of injury
+                  </h1>
+                </div>
+              </Link>
+              <Link to={'/gymnasticsInIndia'}>
+                <div>
+                  <img src={pic10} alt="" className="" />
+                  <h1 className="ml-7 font-bold">Gymnastics in India</h1>
+                </div>
+              </Link>
               <div>
                 <img src={pic11} alt="" className="" />
                 <h1 className="ml-7 font-bold">eNERGIZE quiz competition</h1>
@@ -102,7 +110,7 @@ const Events = () => {
             </div>
 
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-              <Link to={'/myopiaAwareness'}>
+              <Link to={"/myopiaAwareness"}>
                 <div>
                   <img src={pic12} alt="" className="" />
                   <h1 className="ml-7 font-bold">Myopia awareness talk​</h1>

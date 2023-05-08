@@ -19,6 +19,9 @@ import Media from "../Components/Personal/Personal/Media/Media/Media";
 import Events from "../Components/Personal/Personal/Events/Events";
 import RaiseOnAthlete from "../Components/Personal/Personal/Media/AllMedia's/RaiseOnAthlete/RaiseOnAthlete";
 import MyopiaAwareness from "../Components/Personal/Personal/Media/AllMedia's/MyopiaAwareness/MyopiaAwareness";
+import EyeHealthSeminar from "../Components/Personal/Personal/Media/AllMedia's/EyeHealthSeminar/EyeHealthSeminar";
+import ReducingTheRiskOfInjury from "../Components/Personal/Personal/Media/AllMedia's/ReducingTheRiskOfInjury/ReducingTheRiskOfInjury";
+import GymnasticsInIndia from "../Components/Personal/Personal/Media/AllMedia's/GymnasticsInIndia/GymnasticsInIndia";
 
 
 
@@ -109,6 +112,18 @@ const router = createBrowserRouter([
       {
         path: '/myopiaAwareness',
         element: <MyopiaAwareness></MyopiaAwareness>,
+      },
+      {
+        path: '/eyeHealthSeminar',
+        element: <EyeHealthSeminar></EyeHealthSeminar>,
+      },
+      {
+        path: '/reducingTheRiskOfInjury',
+        element: <ReducingTheRiskOfInjury></ReducingTheRiskOfInjury>,
+      },
+      {
+        path: '/gymnasticsInIndia',
+        element: <GymnasticsInIndia></GymnasticsInIndia>,
       },
     ]
   },
