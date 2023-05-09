@@ -72,7 +72,7 @@ const Media = () => {
                   <h1 className="ml-7 font-bold">eNERGIZE Quiz Competition</h1>
                 </div>
               </Link>
-              <Link to={'/goGirl'}>
+              <Link to={"/goGirl"}>
                 <div>
                   <img src={event2} alt="" className="" />
                   <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
@@ -84,10 +84,12 @@ const Media = () => {
                   eNERGIZE fitness championship
                 </h1>
               </div>
-              <div>
-                <img src={event4} alt="" className="" />
-                <h1 className="ml-7 font-bold">eNERGIZE Bootcamp</h1>
-              </div>
+              <Link to={'/bootcamp'}>
+                <div>
+                  <img src={event4} alt="" className="" />
+                  <h1 className="ml-7 font-bold">eNERGIZE Bootcamp</h1>
+                </div>
+              </Link>
             </div>
 
             <div className="mt-5 text-right mr-4">

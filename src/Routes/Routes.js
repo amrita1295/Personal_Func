@@ -24,6 +24,7 @@ import ReducingTheRiskOfInjury from "../Components/Personal/Personal/Media/AllMe
 import GymnasticsInIndia from "../Components/Personal/Personal/Media/AllMedia's/GymnasticsInIndia/GymnasticsInIndia";
 import GoGirl from "../Components/Personal/Personal/Media/AllMedia's/GoGirl/GoGirl";
 import QuizCompetition from "../Components/Personal/Personal/Media/AllMedia's/QuizCompetition/QuizCompetition";
+import Bootcamp from "../Components/Personal/Personal/Media/AllMedia's/Bootcamp/Bootcamp";
 
 
 const router = createBrowserRouter([
@@ -130,6 +131,10 @@ const router = createBrowserRouter([
       {
         path: "/quizCompetition",
         element: <QuizCompetition></QuizCompetition>,
+      },
+      {
+        path: "/bootcamp",
+        element: <Bootcamp></Bootcamp>,
       },
      
     ],
