@@ -298,7 +298,7 @@ const ArticleHeader = () => {
               />
               <div className="flex justify-start">
                 <span className=" text-sm font-bold leading-none ">
-                Nutrition for injury recovery
+                  Nutrition for injury recovery
                 </span>
               </div>
 

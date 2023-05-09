@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Components/Home/Home";
-import MyStory from './../Components/Personal/Personal/MyStory/MyStory';
+import MyStory from "./../Components/Personal/Personal/MyStory/MyStory";
 import MyProjects from "../Components/Personal/Personal/MyProjects/MyProjects";
 import PublicSpeaking from "../Components/Personal/Personal/PublicSpeaking/PublicSpeaking";
-import Blog from './../Components/Personal/Personal/Blog/Blog';
-import WhatDoesFitnessMean from './../Components/Personal/Personal/Blog/ArticleHeader/WhatDoesFitnessMean';
+import Blog from "./../Components/Personal/Personal/Blog/Blog";
+import WhatDoesFitnessMean from "./../Components/Personal/Personal/Blog/ArticleHeader/WhatDoesFitnessMean";
 import PhysicalFitness from "../Components/Personal/Personal/Blog/BlogComponents/PhysicalFitness";
 import SuperFood from "../Components/Personal/Personal/Blog/BlogComponents/SuperFood";
 import NutritionForInjury from "../Components/Personal/Personal/Blog/BlogComponents/NutritionForInjury";
@@ -15,24 +15,30 @@ import FuntionalHealth from "../Components/Personal/Personal/Blog/BlogComponents
 import Contact from "../Components/Contact/Contact";
 import Privacy from "../Components/Personal/Personal/Privacy/Privacy";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
-import Media from "../Components/Personal/Personal/Media/Media";
+import Media from "../Components/Personal/Personal/Media/Media/Media";
 import Events from "../Components/Personal/Personal/Events/Events";
-
-
+import RaiseOnAthlete from "../Components/Personal/Personal/Media/AllMedia's/RaiseOnAthlete/RaiseOnAthlete";
+import MyopiaAwareness from "../Components/Personal/Personal/Media/AllMedia's/MyopiaAwareness/MyopiaAwareness";
+import EyeHealthSeminar from "../Components/Personal/Personal/Media/AllMedia's/EyeHealthSeminar/EyeHealthSeminar";
+import ReducingTheRiskOfInjury from "../Components/Personal/Personal/Media/AllMedia's/ReducingTheRiskOfInjury/ReducingTheRiskOfInjury";
+import GymnasticsInIndia from "../Components/Personal/Personal/Media/AllMedia's/GymnasticsInIndia/GymnasticsInIndia";
+import GoGirl from "../Components/Personal/Personal/Media/AllMedia's/GoGirl/GoGirl";
+import QuizCompetition from "../Components/Personal/Personal/Media/AllMedia's/QuizCompetition/QuizCompetition";
+import Bootcamp from "../Components/Personal/Personal/Media/AllMedia's/Bootcamp/Bootcamp";
 
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Main></Main>,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <Home></Home>,
       },
       {
-        path: '/home',
+        path: "/home",
         element: <Home></Home>,
       },
       {
@@ -52,50 +58,86 @@ const router = createBrowserRouter([
         element: <Blog></Blog>,
       },
       {
-        path: '/what-does-fitness-mean',
+        path: "/what-does-fitness-mean",
         element: <WhatDoesFitnessMean></WhatDoesFitnessMean>,
       },
       {
-        path: '/physicalFitness',
+        path: "/physicalFitness",
         element: <PhysicalFitness></PhysicalFitness>,
       },
       {
-        path: '/superFood',
+        path: "/superFood",
         element: <SuperFood></SuperFood>,
       },
       {
-        path: '/nutritionInjury',
+        path: "/nutritionInjury",
         element: <NutritionForInjury></NutritionForInjury>,
       },
       {
-        path: '/innovationEntrepreneurship',
+        path: "/innovationEntrepreneurship",
         element: <InnovationEntrepreneurship></InnovationEntrepreneurship>,
       },
       {
-        path: '/gentleParenting',
+        path: "/gentleParenting",
         element: <GentleParenting></GentleParenting>,
       },
       {
-        path: '/functionalHealth',
+        path: "/functionalHealth",
         element: <FuntionalHealth></FuntionalHealth>,
       },
       {
-        path: '/contact',
+        path: "/contact",
         element: <Contact></Contact>,
       },
       {
-        path: '/privacy',
+        path: "/privacy",
         element: <Privacy></Privacy>,
       },
       {
-        path: '/media',
+        path: "/media",
         element: <Media></Media>,
       },
       {
-        path: '/events',
+        path: "/events",
         element: <Events></Events>,
       },
-    ]
+
+      //all the media's components
+
+      {
+        path: "/raiseOnAthlete",
+        element: <RaiseOnAthlete></RaiseOnAthlete>,
+      },
+      {
+        path: "/myopiaAwareness",
+        element: <MyopiaAwareness></MyopiaAwareness>,
+      },
+      {
+        path: "/eyeHealthSeminar",
+        element: <EyeHealthSeminar></EyeHealthSeminar>,
+      },
+      {
+        path: "/reducingTheRiskOfInjury",
+        element: <ReducingTheRiskOfInjury></ReducingTheRiskOfInjury>,
+      },
+      {
+        path: "/gymnasticsInIndia",
+        element: <GymnasticsInIndia></GymnasticsInIndia>,
+      },
+      {
+        path: "/goGirl",
+        element: <GoGirl></GoGirl>,
+      },
+      {
+        path: "/quizCompetition",
+        element: <QuizCompetition></QuizCompetition>,
+      },
+      {
+        path: "/bootcamp",
+        element: <Bootcamp></Bootcamp>,
+      },
+     
+    ],
   },
 ]);
 

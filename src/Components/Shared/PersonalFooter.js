@@ -21,10 +21,10 @@ const PersonalFooter = () => {
             My Story
           </Link>
           <Link to={"/myProjects"} className="text-[#FBF8F0]">
-            MyProjects
+            My Projects
           </Link>
           <Link to={"/myBlogs"} className="text-[#FBF8F0]">
-            MyBlogs
+            My Blogs
           </Link>
         </div>
 
@@ -33,7 +33,11 @@ const PersonalFooter = () => {
             Products
           </Link>
 
-          <a href="https://www.youtube.com/channel/UCXGr-W-Z9ubEZCy0abd2NQg" target="blank" className="text-[#FBF8F0] ml-7">
+          <a
+            href="https://www.youtube.com/channel/UCXGr-W-Z9ubEZCy0abd2NQg"
+            target="blank"
+            className="text-[#FBF8F0] ml-7"
+          >
             Latest Videos
           </a>
 
@@ -69,7 +73,10 @@ const PersonalFooter = () => {
         <a href="https://www.linkedin.com/in/xrishi/" target="blank">
           <FaLinkedin className="mr-5"></FaLinkedin>
         </a>
-        <a href="https://www.instagram.com/x.rishi/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR0hHCrnwgAgLkIWdZjD3cJdNhqG-GVWARl9zeLIhSzKnYL3hG6kPwePlBk" target="blank">
+        <a
+          href="https://www.instagram.com/x.rishi/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR0hHCrnwgAgLkIWdZjD3cJdNhqG-GVWARl9zeLIhSzKnYL3hG6kPwePlBk"
+          target="blank"
+        >
           <FaInstagramSquare className="mr-5"></FaInstagramSquare>
         </a>
         <a href="https://twitter.com/rishi_xpl" target="blank">
@@ -78,7 +85,7 @@ const PersonalFooter = () => {
         <a href="https://www.facebook.com/rishikesh.kumar.75054" target="blank">
           <FaFacebook className="mr-5"></FaFacebook>
         </a>
-        <a  href="https://youtube.com/@rishi9566" target="blank">
+        <a href="https://youtube.com/@rishi9566" target="blank">
           <FaYoutube className="mr-5"></FaYoutube>
         </a>
       </div>

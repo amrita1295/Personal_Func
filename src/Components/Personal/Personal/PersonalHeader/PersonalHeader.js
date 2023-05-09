@@ -13,13 +13,13 @@ const PersonalHeader = () => {
     <div className="pb-16">
       <div class="container-1">
         <img src={personalHeader} alt="Snow" className="w-full" />
-        <div className="centered-1">
-          <div class=" font-semibold text-md lg:text-4xl md:text-2xl text-left ">
+        <div className="centered-1 absolute lg:top-52 lg:left-28 md:top-32 md:left-8 top-12 left-6">
+          <div class=" font-semibold text-md lg:text-4xl md:text-3xl text-left ">
             Cravings and ignorance lie at the root of
             <br />
             suffering. So even if you indulge, be aware :)
           </div>
-          <p className="text-left mt-5">
+          <p className="text-left mt-5 lg:text-2xl md:text-2xl text-sm">
             We are spreading awareness about a practical way to <br /> be functionally
             fit.
           </p>

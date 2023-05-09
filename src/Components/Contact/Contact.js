@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="bg-contact pb-10">
       <div class="container-1">
         <img src={contact} alt="Snow" className="w-full" />
-        <div class="centered font-semibold text-3xl">Contact</div>
+        {/* <div class="centered font-semibold text-3xl">Contact</div> */}
       </div>
       <div className="lg:px-12 mx-8 mt-9">
         <h1 className="contact-title">Contact me</h1>
