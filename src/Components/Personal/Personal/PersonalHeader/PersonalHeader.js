@@ -1,6 +1,7 @@
 import React from "react";
 import "./PersonalHeader.css";
 import personalHeader from "../../../../assets/Personal-header.png";
+import personalHeader1 from "../../../../assets/header-home.jpg";
 import feature1 from '../../../../assets/personal-feature-1.png'
 import feature2 from '../../../../assets/personal-feature-2.png'
 import feature3 from '../../../../assets/personal-feature-3.png'
@@ -12,7 +13,7 @@ const PersonalHeader = () => {
   return (
     <div className="pb-16">
       <div class="container-1">
-        <img src={personalHeader} alt="Snow" className="w-full" />
+        <img src={personalHeader1} alt="Snow" className="w-full" />
         <div className="centered-1 absolute lg:top-52 lg:left-28 md:top-32 md:left-8 top-12 left-6">
           <div class=" font-semibold text-md lg:text-4xl md:text-3xl text-left ">
             Cravings and ignorance lie at the root of
