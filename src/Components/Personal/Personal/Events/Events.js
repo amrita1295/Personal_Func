@@ -72,13 +72,15 @@ const Events = () => {
                   <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
                 </div>
               </Link>
-              <div>
-                <img src={pic6} alt="" className="" />
-                <h1 className="ml-7 font-bold">
-                  eNERGIZE fitness championship
-                </h1>
-              </div>
-              <Link to={'/bootcamp'}>
+              <Link to={'/fitnessChampionship'}>
+                <div>
+                  <img src={pic6} alt="" className="" />
+                  <h1 className="ml-7 font-bold">
+                    eNERGIZE fitness championship
+                  </h1>
+                </div>
+              </Link>
+              <Link to={"/bootcamp"}>
                 <div>
                   <img src={pic7} alt="" className="" />
                   <h1 className="ml-7 font-bold">eNERGIZE Bootcamp</h1>
