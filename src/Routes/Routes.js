@@ -17,15 +17,23 @@ import Privacy from "../Components/Personal/Personal/Privacy/Privacy";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
 import Media from "../Components/Personal/Personal/Media/Media/Media";
 import Events from "../Components/Personal/Personal/Events/Events";
-import RaiseOnAthlete from "../Components/Personal/Personal/Media/AllMedia's/RaiseOnAthlete/RaiseOnAthlete";
-import MyopiaAwareness from "../Components/Personal/Personal/Media/AllMedia's/MyopiaAwareness/MyopiaAwareness";
-import EyeHealthSeminar from "../Components/Personal/Personal/Media/AllMedia's/EyeHealthSeminar/EyeHealthSeminar";
-import ReducingTheRiskOfInjury from "../Components/Personal/Personal/Media/AllMedia's/ReducingTheRiskOfInjury/ReducingTheRiskOfInjury";
-import GymnasticsInIndia from "../Components/Personal/Personal/Media/AllMedia's/GymnasticsInIndia/GymnasticsInIndia";
-import GoGirl from "../Components/Personal/Personal/Media/AllMedia's/GoGirl/GoGirl";
-import QuizCompetition from "../Components/Personal/Personal/Media/AllMedia's/QuizCompetition/QuizCompetition";
-import Bootcamp from "../Components/Personal/Personal/Media/AllMedia's/Bootcamp/Bootcamp";
-import FitnessChampionship from "../Components/Personal/Personal/Media/AllMedia's/FitnessChampionship/FitnessChampionship";
+import FitnessChampionship from "../Components/Personal/Personal/Media/AllEvent's/FitnessChampionship/FitnessChampionship";
+import Bootcamp from "../Components/Personal/Personal/Media/AllEvent's/Bootcamp/Bootcamp";
+import QuizCompetition from "../Components/Personal/Personal/Media/AllEvent's/QuizCompetition/QuizCompetition";
+import GoGirl from "../Components/Personal/Personal/Media/AllEvent's/GoGirl/GoGirl";
+import GymnasticsInIndia from "../Components/Personal/Personal/Media/AllEvent's/GymnasticsInIndia/GymnasticsInIndia";
+import ReducingTheRiskOfInjury from "../Components/Personal/Personal/Media/AllEvent's/ReducingTheRiskOfInjury/ReducingTheRiskOfInjury";
+import EyeHealthSeminar from "../Components/Personal/Personal/Media/AllEvent's/EyeHealthSeminar/EyeHealthSeminar";
+import MyopiaAwareness from "../Components/Personal/Personal/Media/AllEvent's/MyopiaAwareness/MyopiaAwareness";
+import RaiseOnAthlete from "../Components/Personal/Personal/Media/AllEvent's/RaiseOnAthlete/RaiseOnAthlete";
+import AllMedia from "../Components/Personal/Personal/Media/AllMedia's/AllMedia";
+
+
+
+
+
+
+
 
 
 const router = createBrowserRouter([
@@ -141,6 +149,10 @@ const router = createBrowserRouter([
       {
         path: "/fitnessChampionship",
         element: <FitnessChampionship></FitnessChampionship>,
+      },
+      {
+        path: "/allMedia",
+        element: <AllMedia></AllMedia>,
       },
      
     ],

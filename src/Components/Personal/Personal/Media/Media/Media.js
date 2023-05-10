@@ -84,7 +84,7 @@ const Media = () => {
                   eNERGIZE fitness championship
                 </h1>
               </div>
-              <Link to={'/bootcamp'}>
+              <Link to={"/bootcamp"}>
                 <div>
                   <img src={event4} alt="" className="" />
                   <h1 className="ml-7 font-bold">eNERGIZE Bootcamp</h1>
@@ -131,7 +131,7 @@ const Media = () => {
               </div>
             </div>
             <div className="mt-5 text-right mr-4">
-              <Link to={"/physicalFitness"}>
+              <Link to={"/allMedia"}>
                 <button className="">
                   <img src={blogArrow} alt="" className="w-24" />
                 </button>
