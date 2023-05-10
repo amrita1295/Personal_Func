@@ -12,6 +12,10 @@ import blogArrow from "../../../../../assets/blog-arrow.png";
 import mediaHeader from "../../../../../assets/media-header.png";
 import left from "../../../../../assets/left-arrow.png";
 import right from "../../../../../assets/right-arrow.png";
+import slider1 from '../../../../../assets/media-slider-1.png'
+import slider2 from '../../../../../assets/media-slider-2.png'
+import slider3 from '../../../../../assets/media-slider-3.png'
+import slider4 from '../../../../../assets/media-slider-4.png'
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -34,16 +38,23 @@ const Media = () => {
 
   return (
     <div className="bg-media">
-      <div className="mx-auto w-[81%]">
+      <div className="mx-auto w-[72%]">
         <Slider {...settings} ref={sliderRef}>
-          <div>
-            <img src={mediaHeader} alt="" />
+          <div className="pt-24 pb-10  lg:px-24 px-12">
+            <img src={slider1} alt="" />
+            <p className="text-center lg:px-44  mt-6">"Xtraliving transforming health solution by focusing on movement, nutrition, sleep and stress.</p>
           </div>
-          <div>
-            <img src={mediaHeader} alt="" />
+          <div className="pt-24 pb-10 lg:px-64 px-12">
+            <img src={slider2} alt="" />
+            <p className="text-center lg:px-10  mt-6">""Xtraliving building health solution specific for corporate employees by focusing on their lifestyle.</p>
           </div>
-          <div>
-            <img src={mediaHeader} alt="" />
+          <div className="pt-24 pb-10   lg:px-64 px-12">
+            <img src={slider3} alt="" />
+            <p className="text-center lg:px-10   mt-6">""Fitness company building deep tech solution using their training expertise and understanding of market.</p>
+          </div>
+          <div className="lg:pt-0 md:pt-0 pt-36 lg:px-40 px-12">
+            <img src={slider4} alt="" />
+            <p className="text-center lg:px-44 md:px-24   mt-6">""Xtraliving collaborate with Govt. of Maharashtra to spread awareness among 12 million students about health. "</p>
           </div>
         </Slider>
         <div style={{ textAlign: "center" }}>
