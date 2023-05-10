@@ -14,7 +14,7 @@ const PersonalHeader = () => {
     <div className="pb-16">
       <div class="container-1">
         <img src={personalHeader1} alt="Snow" className="w-full" />
-        <div className="centered-1 absolute lg:top-52 lg:left-28 md:top-32 md:left-8 top-12 left-6">
+        <div className="centered-1 absolute lg:top-52 lg:left-28 md:top-32 md:left-8 top-12 left-6 text-black">
           <div class=" font-semibold text-md lg:text-4xl md:text-3xl text-left ">
             Cravings and ignorance lie at the root of
             <br />
