@@ -108,7 +108,10 @@ const WorkWith = () => {
       </p>
 
       <div className="flex justify-center mt-10 pb-16">
-        <a href="https://zfrmz.in/1fPYZ8UFus5It0Dvp7Dl" target="blank">
+        <a
+          href="https://forms.myfunc.in/myfunc/form/ConnectwithRishi/formperma/HkPge_e3v8bQoOpsQka6qPmQ5YBTC29DAGd2H5FJaHk?fbclid=IwAR1s3A_4yHNFSgBF4ViG0o0Je8g4Bqvh0YsmOCEUb3C3M5qPMKChN3e2lVk"
+          target="blank"
+        >
           <button className="fill-btn ">FILL THE FORM</button>
         </a>
       </div>
