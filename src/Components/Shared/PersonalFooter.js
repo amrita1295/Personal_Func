@@ -65,7 +65,7 @@ const PersonalFooter = () => {
         <div className="privacy p-4">
           <Link to={"/privacy"}>Privacy</Link>{" "}
           <span className="inline-block mr-10 ml-10 line">|</span>{" "}
-          <Link to={"./terms"}>Terms</Link>
+          <Link to={"/terms"}>Terms</Link>
         </div>
       </div>
 

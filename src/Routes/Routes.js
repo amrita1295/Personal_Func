@@ -27,6 +27,7 @@ import EyeHealthSeminar from "../Components/Personal/Personal/Media/AllEvent's/E
 import MyopiaAwareness from "../Components/Personal/Personal/Media/AllEvent's/MyopiaAwareness/MyopiaAwareness";
 import RaiseOnAthlete from "../Components/Personal/Personal/Media/AllEvent's/RaiseOnAthlete/RaiseOnAthlete";
 import AllMedia from "../Components/Personal/Personal/Media/AllMedia's/AllMedia";
+import Terms from "../Components/Personal/Personal/Terms/Terms";
 
 
 
@@ -153,6 +154,10 @@ const router = createBrowserRouter([
       {
         path: "/allMedia",
         element: <AllMedia></AllMedia>,
+      },
+      {
+        path: "/terms",
+        element: <Terms></Terms>,
       },
      
     ],
