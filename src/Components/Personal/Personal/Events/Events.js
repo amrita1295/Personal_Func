@@ -109,7 +109,7 @@ const Events = () => {
                   <h1 className="ml-7 font-bold">Gymnastics in India</h1>
                 </div>
               </Link>
-              <Link to={"/eNERGIZEQuizCompetition"}>
+              <Link to={"/quizCompetition"}>
                 <div>
                   <img src={pic11} alt="" className="" />
                   <h1 className="ml-7 font-bold">eNERGIZE quiz competition</h1>
