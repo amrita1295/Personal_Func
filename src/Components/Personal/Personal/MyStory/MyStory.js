@@ -6,8 +6,9 @@ const MyStory = () => {
     <div className="bg-contact pb-10 text-justify">
       <div class="container-1">
         <img src={story} alt="Snow" className="w-full" />
-        <div class="centered font-semibold text-3xl">My story</div>
+        {/* <div class="centered font-semibold text-3xl">My story</div> */}
       </div>
+      
       <div className="lg:px-12 mx-8 mt-9">
         <div className="border-left flex items-center font-bold mt-8">
           <p className="ml-3 text-[#000000]">Growing Up</p>
