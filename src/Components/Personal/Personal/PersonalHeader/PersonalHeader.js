@@ -15,13 +15,13 @@ const PersonalHeader = () => {
       <div class="container-1">
         <img src={personalHeader1} alt="Snow" className="w-full" />
         <div className="centered-1 absolute lg:top-52 lg:left-28 md:top-32 md:left-8 top-12 left-6 text-black">
-          <div class=" font-semibold text-md lg:text-4xl md:text-3xl text-left ">
-            Cravings and ignorance lie at the root of
+          <div class=" font-semibold text-md lg:text-4xl md:text-3xl text-left text-[16px] lg:w-full md:w-[500px] w-52">
+            Cravings and ignorance lie at the root 
             <br />
-            suffering. So even if you indulge, be aware{" "}
+            of  suffering. So even if you indulge, be aware{" "}
             <span className="text-white">:)</span>
           </div>
-          <p className="text-left mt-5 lg:text-2xl md:text-2xl text-sm">
+          <p className="text-left mt-5 lg:text-2xl md:text-2xl text-[14px] w-52 lg:w-full md:w-[450px]">
             We are spreading awareness about a practical way to <br /> be
             functionally fit.
           </p>
