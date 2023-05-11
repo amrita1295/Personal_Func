@@ -29,20 +29,26 @@ const Events = () => {
           </div>
           <div className="collapse-content">
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-              <div>
-                <img src={pic1} alt="" className="" />
-                <h1 className="ml-7 font-bold">eNERGIZE Quiz Competition</h1>
-              </div>
-              <div>
-                <img src={pic2} alt="" className="" />
-                <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
-              </div>
+              <Link to={"/quizCompetition"}>
+                <div>
+                  <img src={pic1} alt="" className="" />
+                  <h1 className="ml-7 font-bold">eNERGIZE Quiz Competition</h1>
+                </div>
+              </Link>
+              <Link to={'/goGirl'}>
+                <div>
+                  <img src={pic2} alt="" className="" />
+                  <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
+                </div>
+              </Link>
+              <Link to={'/fitnessChampionship'}>
               <div>
                 <img src={pic3} alt="" className="" />
                 <h1 className="ml-7 font-bold">
                   eNERGIZE fitness championship
                 </h1>
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -72,7 +78,7 @@ const Events = () => {
                   <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
                 </div>
               </Link>
-              <Link to={'/fitnessChampionship'}>
+              <Link to={"/fitnessChampionship"}>
                 <div>
                   <img src={pic6} alt="" className="" />
                   <h1 className="ml-7 font-bold">
