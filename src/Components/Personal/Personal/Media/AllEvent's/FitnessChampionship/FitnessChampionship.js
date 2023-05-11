@@ -6,6 +6,7 @@ import pic2 from "../../../../../../assets/eNERGIZEfitnesschampionship.png";
 import signup from "../../../../../../assets/Sign up.png";
 import recording from "../../../../../../assets/Recording Video.png";
 import uploading from "../../../../../../assets/Upload to cloud.png";
+import completion from "../../../../../../assets/completion.png";
 import "./FitnessChampionship.css";
 const FitnessChampionship = () => {
   return (
@@ -68,6 +69,7 @@ const FitnessChampionship = () => {
         <div className="w-3/6 mx-auto mt-10">
           <img src={pic2} alt="" />
         </div>
+
         <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
@@ -102,6 +104,13 @@ const FitnessChampionship = () => {
             </p>
           </div>
         </div>
+
+        <div className="flex justify-center mt-16">
+          <a href="#" target="blank" className="">
+            <button className="fill-btn-1 text-[#000000]">REGISTER</button>
+          </a>
+        </div>
+
         <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
@@ -255,13 +264,13 @@ const FitnessChampionship = () => {
             Trophy and Certificate for the winner in each category (Male/Female)
           </p>
         </div>
-        
+
         <div>
           <div>
             <h1 className="text-center mt-12 font-bold text-[#000000] text-[23px]">
               Category for under 18
             </h1>
-            <div  className="border-bottom-category"></div>
+            <div className="border-bottom-category"></div>
           </div>
 
           <div className="flex gap-8 flex-col lg:flex-row md:flex-row lg:px-40 px-10 mt-12">
@@ -281,6 +290,143 @@ const FitnessChampionship = () => {
               you haven’t been consistent, here is where you start.
             </div>
           </div>
+        </div>
+
+        <h1 className="text-center mt-12 font-bold text-[#000000] text-[23px]">
+          There is no failure, there is only feedback!
+        </h1>
+
+        <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
+          <div className="collapse-title text-xl font-medium">
+            <div className="border-left flex items-center font-bold">
+              <p className="ml-3 text-[#000000]">Important Instructions</p>
+            </div>
+          </div>
+          <div className="collapse-content">
+            <p className="mt-8 list-disc">
+              <li>
+                You have to perform all three workouts to be eligible for cash
+                prize
+              </li>
+              <li>
+                Perform the workout keeping in line with the movement standards
+                as instructed.
+              </li>
+              <li>Record yourself, calculate the score and share it with us</li>
+              <li>
+                Make sure a timer (laptop, mobile or digital clock) is visible
+                in the recorded video
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+          <div>
+            <div
+              tabIndex={0}
+              className="collapse collapse-open bg-[#FBF8F0] mt-20"
+            >
+              <div className="collapse-title text-xl font-medium">
+                <div className="border-left flex items-center font-bold">
+                  <p className="ml-3 text-[#000000]">Competition Workout 1</p>
+                </div>
+              </div>
+              <div className="collapse-content">
+                <img src={completion} alt="" className="mt-12" />
+                <h1 className="mt-8 font-semibold text-[#000000] w-80">
+                  10 min AMRAP2-4-6-8…. (keep adding two reps of) JUMP SQUATS
+                  BURPEES
+                </h1>
+
+                <p className="text-justify w-80 mt-6">
+                  Explanation: Complete 2 reps of Jump Squats and then 2 reps of
+                  Burpees. Next complete 4 reps of Jump Squats and 4 reps of
+                  Burpees. Keep increasing 2 reps every time till the clock hits
+                  10 minutes. You can take rest in between but the timer should
+                  not stop. You cannot change the sequence or count of the
+                  workouts.
+                  <br /> <br />
+                  Score: Total number of Jump Squats and Burpees performed in 10
+                  minutes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              tabIndex={0}
+              className="collapse collapse-open bg-[#FBF8F0] mt-20"
+            >
+              <div className="collapse-title text-xl font-medium">
+                <div className="border-left flex items-center font-bold">
+                  <p className="ml-3 text-[#000000]">Competition Workout 2</p>
+                </div>
+              </div>
+              <div className="collapse-content">
+                <img src={completion} alt="" className="mt-12" />
+                <h1 className="mt-8 font-semibold text-[#000000] w-80">
+                  4 ROUNDS FOR TIME OF 20 SITUPS30 ALT FORWARD LUNGE 40 LATERAL
+                  HOPS (over 1 Ltr bottle)
+                  <br /> <br />
+                  CAP TIME 10 mins
+                </h1>
+                <p className="text-justify w-80 mt-6">
+                  Explanation: In every round you have to do 20 sit-ups, 30
+                  alternate forward lunge (15 left and 15 right) and 40 lateral
+                  hops (20 on the left and 20 on the right). You have to
+                  complete 4 rounds within 10 minutes , if you are not able to
+                  complete then count the total number of reps done.
+                  <br /> <br />
+                  Score: If you complete all the rounds in under 10 mins, the
+                  time taken becomes your score. Else, the sum total of the
+                  number of reps done becomes the score
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              tabIndex={0}
+              className="collapse collapse-open bg-[#FBF8F0] mt-20"
+            >
+              <div className="collapse-title text-xl font-medium">
+                <div className="border-left flex items-center font-bold">
+                  <p className="ml-3 text-[#000000]">Competition Workout 3</p>
+                </div>
+              </div>
+              <div className="collapse-content">
+                <img src={completion} alt="" className="mt-12" />
+                <h1 className="mt-8 font-semibold text-[#000000] w-80">
+                  40-20-10-20-40 HAND RELEASE PUSH UPSFLOOR TO OVERHEAD ( 2x
+                  1Ltr bottles) CAP TIME 10 mins.
+                </h1>
+
+                <p className="text-justify w-80 mt-6">
+                  Explanation: You have to complete 40 hand release push-ups
+                  then 40 floor to overhead, next 20 hand release push-ups and
+                  20 floor to overhead and so on. Complete the workout in 10
+                  minutes, if you are not able to complete then count the number
+                  of reps for your score.
+                  <br />
+                  <br />
+                  Score: If you complete all the rounds in under 10 mins, the
+                  time taken becomes your score. Else, the sum total of the
+                  number of reps done becomes the score.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 className="text-center font-bold text-[30px] mt-24 text-[#000000]">
+          Submit your score here
+        </h1>
+
+        <div className="flex justify-center mt-16 mb-16">
+          <a href="#" target="blank" className="">
+            <button className="fill-btn-1 text-[#000000]">CLICK TO SUBMIT YOUR SCORE</button>
+          </a>
         </div>
       </div>
     </div>
