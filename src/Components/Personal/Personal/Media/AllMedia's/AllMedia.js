@@ -39,6 +39,46 @@ import img37 from "../../../../../assets/media-37.png";
 import img38 from "../../../../../assets/media-38.png";
 import img39 from "../../../../../assets/media-39.png";
 import img40 from "../../../../../assets/media-40.png";
+import img41 from '../../../../../assets/media-1.1.png'
+import img42 from '../../../../../assets/media-2.1.png'
+import img43 from '../../../../../assets/media-3.1.jpg'
+import img44 from '../../../../../assets/media-4.1.png'
+import img45 from '../../../../../assets/media-5.1.png'
+import img46 from '../../../../../assets/media-6.1.png'
+import img47 from '../../../../../assets/media-7.1.png'
+import img48 from '../../../../../assets/media-8.1.png'
+import img49 from '../../../../../assets/media-9.1.png'
+import img50 from '../../../../../assets/media-10.1.png'
+import img51 from '../../../../../assets/media-11.1.png'
+import img52 from '../../../../../assets/media-12.1.png'
+import img53 from '../../../../../assets/media-13.1.png'
+import img54 from '../../../../../assets/media-14.1.png'
+import img55 from '../../../../../assets/media-15.1.png'
+import img56 from '../../../../../assets/media-16.1.png'
+import img57 from '../../../../../assets/media-17.1.png'
+import img58 from '../../../../../assets/media-18.1.png'
+import img59 from '../../../../../assets/media-19.1.png'
+import img60 from '../../../../../assets/media-20.1.png'
+import img61 from '../../../../../assets/media-21.1.png'
+import img62 from '../../../../../assets/media-22.1.png'
+import img63 from '../../../../../assets/media-23.1.png'
+import img64 from '../../../../../assets/media-24.1.png'
+import img65 from '../../../../../assets/media-25.1.png'
+import img66 from '../../../../../assets/media-26.1.png'
+import img67 from '../../../../../assets/media-27.1.png'
+import img68 from '../../../../../assets/media-3.1.jpg'
+import img69 from '../../../../../assets/media-29.1.png'
+import img70 from '../../../../../assets/media-30.1.png'
+import img71 from '../../../../../assets/media-31.1.png'
+import img72 from '../../../../../assets/media-32.1.png'
+import img73 from '../../../../../assets/media-33.1.png'
+import img74 from '../../../../../assets/media-34.1.png'
+import img75 from '../../../../../assets/media-35.1.png'
+import img76 from '../../../../../assets/media-36.1.png'
+import img77 from '../../../../../assets/media-37.1.png'
+import img78 from '../../../../../assets/media-38.1.png'
+import img79 from '../../../../../assets/media-39.1.png'
+import img80 from '../../../../../assets/media-40.1.png'
 
 import Slider from "react-slick";
 import { PhotoProvider, PhotoView } from "react-photo-view";
@@ -57,7 +97,7 @@ const AllMedia = () => {
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 mt-10">
               <div>
                 <PhotoProvider>
-                  <PhotoView src={img1}>
+                  <PhotoView src={img41}>
                     <img src={img1} alt="" className="cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -70,7 +110,7 @@ const AllMedia = () => {
               </div>
               <div>
                 <PhotoProvider>
-                  <PhotoView src={img2}>
+                  <PhotoView src={img42}>
                     <img src={img2} alt="" className="cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -82,7 +122,7 @@ const AllMedia = () => {
               </div>
               <div>
                 <PhotoProvider>
-                  <PhotoView src={img3}>
+                  <PhotoView src={img43}>
                     <img src={img3} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -94,7 +134,7 @@ const AllMedia = () => {
               </div>
               <div>
                 <PhotoProvider>
-                  <PhotoView src={img4}>
+                  <PhotoView src={img44}>
                     <img src={img4} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -107,7 +147,7 @@ const AllMedia = () => {
               </div>
               <div>
                 <PhotoProvider>
-                  <PhotoView src={img5}>
+                  <PhotoView src={img45}>
                     <img src={img5} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -120,7 +160,7 @@ const AllMedia = () => {
               </div>
               <div>
                 <PhotoProvider>
-                  <PhotoView src={img6}>
+                  <PhotoView src={img46}>
                     <img src={img6} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -132,7 +172,7 @@ const AllMedia = () => {
               </div>
               <div>
                 <PhotoProvider>
-                  <PhotoView src={img7}>
+                  <PhotoView src={img47}>
                     <img src={img7} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -143,7 +183,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img8}>
+                  <PhotoView src={img48}>
                     <img src={img8} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -156,7 +196,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img9}>
+                  <PhotoView src={img49}>
                     <img src={img9} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -168,7 +208,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img10}>
+                  <PhotoView src={img50}>
                     <img src={img10} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -177,7 +217,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img11}>
+                  <PhotoView src={img51}>
                     <img src={img11} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -186,7 +226,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img12}>
+                  <PhotoView src={img52}>
                     <img src={img12} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -197,7 +237,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img13}>
+                  <PhotoView src={img53}>
                     <img src={img13} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -209,7 +249,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img14}>
+                  <PhotoView src={img54}>
                     <img src={img14} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -220,7 +260,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img15}>
+                  <PhotoView src={img55}>
                     <img src={img15} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -231,7 +271,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img16}>
+                  <PhotoView src={img56}>
                     <img src={img16} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -242,7 +282,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img17}>
+                  <PhotoView src={img57}>
                     <img src={img17} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -253,7 +293,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img18}>
+                  <PhotoView src={img58}>
                     <img src={img18} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -265,7 +305,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img19}>
+                  <PhotoView src={img59}>
                     <img src={img19} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -274,7 +314,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img20}>
+                  <PhotoView src={img60}>
                     <img src={img20} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -285,7 +325,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img21}>
+                  <PhotoView src={img61}>
                     <img src={img21} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -297,7 +337,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img22}>
+                  <PhotoView src={img62}>
                     <img src={img22} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -308,7 +348,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img23}>
+                  <PhotoView src={img63}>
                     <img src={img23} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -320,7 +360,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img24}>
+                  <PhotoView src={img64}>
                     <img src={img24} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -331,7 +371,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img25}>
+                  <PhotoView src={img65}>
                     <img src={img25} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -342,7 +382,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img26}>
+                  <PhotoView src={img66}>
                     <img src={img26} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -355,7 +395,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img27}>
+                  <PhotoView src={img67}>
                     <img src={img27} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -366,7 +406,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img28}>
+                  <PhotoView src={img68}>
                     <img src={img28} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -377,7 +417,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img29}>
+                  <PhotoView src={img69}>
                     <img src={img29} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -389,7 +429,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img30}>
+                  <PhotoView src={img70}>
                     <img src={img30} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -401,7 +441,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img31}>
+                  <PhotoView src={img71}>
                     <img src={img31} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -410,7 +450,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img32}>
+                  <PhotoView src={img72}>
                     <img src={img32} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -419,7 +459,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img33}>
+                  <PhotoView src={img73}>
                     <img src={img33} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -430,7 +470,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img34}>
+                  <PhotoView src={img74}>
                     <img src={img34} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -439,7 +479,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img35}>
+                  <PhotoView src={img75}>
                     <img src={img35} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -448,7 +488,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img36}>
+                  <PhotoView src={img76}>
                     <img src={img36} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -459,7 +499,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img37}>
+                  <PhotoView src={img77}>
                     <img src={img37} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -468,7 +508,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img38}>
+                  <PhotoView src={img78}>
                     <img src={img38} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -477,7 +517,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img39}>
+                  <PhotoView src={img79}>
                     <img src={img39} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
@@ -486,7 +526,7 @@ const AllMedia = () => {
               </div>
               <div>
               <PhotoProvider>
-                  <PhotoView src={img40}>
+                  <PhotoView src={img80}>
                     <img src={img40} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
