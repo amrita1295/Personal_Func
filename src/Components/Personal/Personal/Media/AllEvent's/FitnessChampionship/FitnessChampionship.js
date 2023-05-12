@@ -66,11 +66,11 @@ const FitnessChampionship = () => {
             </div>
           </div>
         </div>
-        <div className="w-3/6 mx-auto mt-10">
+        {/* <div className="w-3/6 mx-auto mt-10">
           <img src={pic2} alt="" />
-        </div>
+        </div> */}
 
-        <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
+        {/* <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
               <p className="ml-3 text-[#000000]">
@@ -86,8 +86,8 @@ const FitnessChampionship = () => {
               at it while staying at home.
             </p>
           </div>
-        </div>
-        <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
+        </div> */}
+        {/* <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
               <p className="ml-3 text-[#000000]">
@@ -103,15 +103,15 @@ const FitnessChampionship = () => {
               page
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="flex justify-center mt-16">
+        {/* <div className="flex justify-center mt-16">
           <a href="#" target="blank" className="">
             <button className="fill-btn-1 text-[#000000]">REGISTER</button>
           </a>
-        </div>
+        </div> */}
 
-        <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
+        {/* <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
               <p className="ml-3 text-[#000000]">THE TIMELINE</p>
@@ -200,11 +200,11 @@ const FitnessChampionship = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full mx-auto mt-10">
+        </div> */}
+        {/* <div className="w-full mx-auto mt-10">
           <img src={pic1} alt="" />
-        </div>
-        <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
+        </div> */}
+        {/* <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
               <p className="ml-3 text-[#000000]">HOW DO YOU PARTICIPATE ?</p>
@@ -241,7 +241,7 @@ const FitnessChampionship = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div>
           <h1 className="text-center pt-24 text-[#000000] text-[25px] font-semibold border-bottom-prize">
             Prizes
