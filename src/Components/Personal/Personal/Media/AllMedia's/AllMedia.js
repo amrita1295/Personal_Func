@@ -98,7 +98,7 @@ const AllMedia = () => {
               <div>
                 <PhotoProvider>
                   <PhotoView src={img41}>
-                    <img src={img1} alt="" className="cursor-pointer" />
+                    <img src={img41} alt="" className="cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
 
@@ -111,7 +111,7 @@ const AllMedia = () => {
               <div>
                 <PhotoProvider>
                   <PhotoView src={img42}>
-                    <img src={img2} alt="" className="cursor-pointer" />
+                    <img src={img42} alt="" className="cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
 
@@ -123,7 +123,7 @@ const AllMedia = () => {
               <div>
                 <PhotoProvider>
                   <PhotoView src={img43}>
-                    <img src={img3} alt="" className=" cursor-pointer" />
+                    <img src={img43} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
 
@@ -135,7 +135,7 @@ const AllMedia = () => {
               <div>
                 <PhotoProvider>
                   <PhotoView src={img44}>
-                    <img src={img4} alt="" className=" cursor-pointer" />
+                    <img src={img44} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
 
@@ -148,7 +148,7 @@ const AllMedia = () => {
               <div>
                 <PhotoProvider>
                   <PhotoView src={img45}>
-                    <img src={img5} alt="" className=" cursor-pointer" />
+                    <img src={img45} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
 
@@ -161,7 +161,7 @@ const AllMedia = () => {
               <div>
                 <PhotoProvider>
                   <PhotoView src={img46}>
-                    <img src={img6} alt="" className=" cursor-pointer" />
+                    <img src={img46} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Newsd</p>
@@ -173,7 +173,7 @@ const AllMedia = () => {
               <div>
                 <PhotoProvider>
                   <PhotoView src={img47}>
-                    <img src={img7} alt="" className=" cursor-pointer" />
+                    <img src={img47} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Jhalak</p>
@@ -184,7 +184,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img48}>
-                    <img src={img8} alt="" className=" cursor-pointer" />
+                    <img src={img48} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">News Patrolling</p>
@@ -197,7 +197,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img49}>
-                    <img src={img9} alt="" className=" cursor-pointer" />
+                    <img src={img49} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">IANS Life</p>
@@ -209,7 +209,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img50}>
-                    <img src={img10} alt="" className=" cursor-pointer" />
+                    <img src={img50} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Telangana Today</p>
@@ -218,7 +218,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img51}>
-                    <img src={img11} alt="" className=" cursor-pointer" />
+                    <img src={img51} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Healthwire</p>
@@ -227,7 +227,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img52}>
-                    <img src={img12} alt="" className=" cursor-pointer" />
+                    <img src={img52} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">News Karnataka</p>
@@ -238,7 +238,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img53}>
-                    <img src={img13} alt="" className=" cursor-pointer" />
+                    <img src={img53} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Edex Live</p>
@@ -250,7 +250,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img54}>
-                    <img src={img14} alt="" className=" cursor-pointer" />
+                    <img src={img54} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">MSN</p>
@@ -261,7 +261,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img55}>
-                    <img src={img15} alt="" className=" cursor-pointer" />
+                    <img src={img55} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">The New Indian Express</p>
@@ -272,7 +272,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img56}>
-                    <img src={img16} alt="" className=" cursor-pointer" />
+                    <img src={img56} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">The Sunday Standard</p>
@@ -283,7 +283,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img57}>
-                    <img src={img17} alt="" className=" cursor-pointer" />
+                    <img src={img57} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">The News Now</p>
@@ -294,7 +294,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img58}>
-                    <img src={img18} alt="" className=" cursor-pointer" />
+                    <img src={img58} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">The Bridge</p>
@@ -306,7 +306,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img59}>
-                    <img src={img19} alt="" className=" cursor-pointer" />
+                    <img src={img59} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">IANS Life</p>
@@ -315,7 +315,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img60}>
-                    <img src={img20} alt="" className=" cursor-pointer" />
+                    <img src={img60} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">India Today</p>
@@ -326,7 +326,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img61}>
-                    <img src={img21} alt="" className=" cursor-pointer" />
+                    <img src={img61} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Outlook</p>
@@ -338,7 +338,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img62}>
-                    <img src={img22} alt="" className=" cursor-pointer" />
+                    <img src={img62} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Vanitha</p>
@@ -349,7 +349,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img63}>
-                    <img src={img23} alt="" className=" cursor-pointer" />
+                    <img src={img63} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">This Week India</p>
@@ -361,7 +361,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img64}>
-                    <img src={img24} alt="" className=" cursor-pointer" />
+                    <img src={img64} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">APN News</p>
@@ -372,7 +372,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img65}>
-                    <img src={img25} alt="" className=" cursor-pointer" />
+                    <img src={img65} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Hans India</p>
@@ -383,7 +383,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img66}>
-                    <img src={img26} alt="" className=" cursor-pointer" />
+                    <img src={img66} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">The Tribune</p>
@@ -396,7 +396,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img67}>
-                    <img src={img27} alt="" className=" cursor-pointer" />
+                    <img src={img67} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">iDiva</p>
@@ -407,7 +407,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img68}>
-                    <img src={img28} alt="" className=" cursor-pointer" />
+                    <img src={img68} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">The New Indian Express</p>
@@ -418,7 +418,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img69}>
-                    <img src={img29} alt="" className=" cursor-pointer" />
+                    <img src={img69} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">The New Indian Express</p>
@@ -430,7 +430,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img70}>
-                    <img src={img30} alt="" className=" cursor-pointer" />
+                    <img src={img70} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Socialnews.xyz</p>
@@ -442,7 +442,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img71}>
-                    <img src={img31} alt="" className=" cursor-pointer" />
+                    <img src={img71} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Enadu</p>
@@ -451,7 +451,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img72}>
-                    <img src={img32} alt="" className=" cursor-pointer" />
+                    <img src={img72} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Hyderabad Today</p>
@@ -460,7 +460,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img73}>
-                    <img src={img33} alt="" className=" cursor-pointer" />
+                    <img src={img73} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Exchange 4 Media</p>
@@ -471,7 +471,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img74}>
-                    <img src={img34} alt="" className=" cursor-pointer" />
+                    <img src={img74} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Exchange 4 Media</p>
@@ -480,7 +480,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img75}>
-                    <img src={img35} alt="" className=" cursor-pointer" />
+                    <img src={img75} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Hans India</p>
@@ -489,7 +489,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img76}>
-                    <img src={img36} alt="" className=" cursor-pointer" />
+                    <img src={img76} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">AndraJyothi</p>
@@ -500,7 +500,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img77}>
-                    <img src={img37} alt="" className=" cursor-pointer" />
+                    <img src={img77} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Sakshi</p>
@@ -509,7 +509,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img78}>
-                    <img src={img38} alt="" className=" cursor-pointer" />
+                    <img src={img78} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">PopXo</p>
@@ -518,7 +518,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img79}>
-                    <img src={img39} alt="" className=" cursor-pointer" />
+                    <img src={img79} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">Sakshi</p>
@@ -527,7 +527,7 @@ const AllMedia = () => {
               <div>
               <PhotoProvider>
                   <PhotoView src={img80}>
-                    <img src={img40} alt="" className=" cursor-pointer" />
+                    <img src={img80} alt="" className=" cursor-pointer" />
                   </PhotoView>
                 </PhotoProvider>
                 <p className="mt-2 mb-2 font-bold">AndraPrabha</p>
