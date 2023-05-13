@@ -80,13 +80,19 @@ const PublicSpeaking = () => {
         </div>
       </div>
 
+      <p className="text-center text-[#000000] text-2xl font-semibold mt-12">
+        Connect with me for speaking engagements on health,
+        <br /> entrepreneurship and innovation projects.
+      </p>
 
-  <div className="flex justify-center mt-10">
-          <a href="https://forms.myfunc.in/myfunc/form/ConnectwithRishi/formperma/HkPge_e3v8bQoOpsQka6qPmQ5YBTC29DAGd2H5FJaHk?fbclid=IwAR1s3A_4yHNFSgBF4ViG0o0Je8g4Bqvh0YsmOCEUb3C3M5qPMKChN3e2lVk" target="blank">
-            <button className="fill-btn ">FILL THE FORM</button>
-          </a>
-        </div>
-     
+      <div className="flex justify-center mt-10 pb-16">
+        <a
+          href="https://forms.myfunc.in/myfunc/form/ConnectwithRishi/formperma/HkPge_e3v8bQoOpsQka6qPmQ5YBTC29DAGd2H5FJaHk?fbclid=IwAR1s3A_4yHNFSgBF4ViG0o0Je8g4Bqvh0YsmOCEUb3C3M5qPMKChN3e2lVk"
+          target="blank"
+        >
+          <button className="fill-btn ">FILL THE FORM</button>
+        </a>
+      </div>
     </div>
   );
 };
