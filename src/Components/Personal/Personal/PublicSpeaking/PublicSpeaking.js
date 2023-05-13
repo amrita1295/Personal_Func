@@ -80,6 +80,12 @@ const PublicSpeaking = () => {
         </div>
       </div>
 
+
+  <div className="flex justify-center mt-10">
+          <a href="https://forms.myfunc.in/myfunc/form/ConnectwithRishi/formperma/HkPge_e3v8bQoOpsQka6qPmQ5YBTC29DAGd2H5FJaHk?fbclid=IwAR1s3A_4yHNFSgBF4ViG0o0Je8g4Bqvh0YsmOCEUb3C3M5qPMKChN3e2lVk" target="blank">
+            <button className="fill-btn ">FILL THE FORM</button>
+          </a>
+        </div>
      
     </div>
   );

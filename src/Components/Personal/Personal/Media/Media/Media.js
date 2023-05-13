@@ -101,7 +101,7 @@ const Media = () => {
                   <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
                 </div>
               </Link>
-              <Link to={'/fitnessChampionship'}>
+              <Link to={"/fitnessChampionship"}>
                 <div>
                   <img src={event3} alt="" className="" />
                   <h1 className="ml-7 font-bold">
