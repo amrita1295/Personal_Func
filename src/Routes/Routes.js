@@ -28,6 +28,7 @@ import MyopiaAwareness from "../Components/Personal/Personal/Media/AllEvent's/My
 import RaiseOnAthlete from "../Components/Personal/Personal/Media/AllEvent's/RaiseOnAthlete/RaiseOnAthlete";
 import AllMedia from "../Components/Personal/Personal/Media/AllMedia's/AllMedia";
 import Terms from "../Components/Personal/Personal/Terms/Terms";
+import PublicSpeakingBlog from './../Components/Personal/Personal/Blog/BlogComponents/PublicSpeakingBlog';
 
 
 
@@ -94,6 +95,10 @@ const router = createBrowserRouter([
       {
         path: "/functionalHealth",
         element: <FuntionalHealth></FuntionalHealth>,
+      },
+      {
+        path: "/publicSpeakingBlog",
+        element: <PublicSpeakingBlog></PublicSpeakingBlog>,
       },
       {
         path: "/contact",

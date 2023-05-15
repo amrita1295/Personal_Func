@@ -264,7 +264,7 @@ const ArticleHeader = () => {
               </p>
 
               <div className="mt-5 text-right">
-                <Link to={"/functionalHealth"}>
+                <Link to={"/publicSpeakingBlog"}>
                   <button className="">
                     <img src={blogArrow} alt="" className="w-24" />
                   </button>
