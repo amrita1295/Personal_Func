@@ -5,9 +5,8 @@ import arrow from "../../../../../assets/Arrow.png";
 const GentleParenting = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
+       <img src={gentleParentingPic} alt="" />
       <div className="mx-auto w-3/4">
-        <img src={gentleParentingPic} alt="" />
-
         <div
           tabIndex={0}
           className="collapse collapse-open bg-[#FBF8F0] mt-10 "
