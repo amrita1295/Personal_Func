@@ -1,21 +1,20 @@
 import React from "react";
 import "./PublicSpeaking.css";
 
-import publicSpeakingPic from "../../../../assets/publicSpeaking.png";
+import publicSpeakingPic from "../../../../assets/public-speaking-blog.png";
 
 const PublicSpeaking = () => {
   return (
     <div className=" bg-[#FBF8F0] pb-12">
-      <div className="mx-auto w-3/4">
         <img src={publicSpeakingPic} alt="" />
-
-        <p className="mt-10 text-justify">
+      <div className="mx-auto w-3/4">
+        {/* <p className="mt-10 text-justify">
           Rishi has participated in several projects promoting health and
           well-being using technology and domain knowledge. These projects focus
           on improving athletes' performance, enhancing corporate employees'
           health, building a foundation of health in children, and fostering a
           culture of health in our society.
-        </p>
+        </p> */}
 
         <div
           tabIndex={0}
