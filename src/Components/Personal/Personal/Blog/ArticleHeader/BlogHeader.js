@@ -13,6 +13,7 @@ import blogArrow from "../../../../../assets/blog-arrow.png";
 import blog7 from "../../../../../assets/blog-7.png";
 import blog8 from "../../../../../assets/blog-8.png";
 import blog9 from "../../../../../assets/blog-9.png";
+import blog10 from "../../../../../assets/blog-10.png";
 import arrow from "../../../../../assets/Arrow.png";
 import dot from "../../../../../assets/healthy-dot.png";
 // import dot2 from "../../../../../assets/about-dot-2.png";
@@ -156,8 +157,10 @@ const ArticleHeader = () => {
         <h1 className="text-center article-title pt-12">New article</h1>
 
         <div className="lg:px-10 md:px-6 py-12 ">
-          <div className="parent grid gap-8 row-gap-5 lg:grid-cols-3 lg:row-gap-8 md:grid-cols-2">
-            <div className="p-6 rounded shadow-lg ">
+
+    <Slider {...settings}>
+
+            <div className="p-6 rounded shadow-lg outline-none">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
                 src={blog7}
@@ -186,7 +189,7 @@ const ArticleHeader = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded shadow-lg ">
+            <div className="p-6 rounded shadow-lg outline-none">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
                 src={blog8}
@@ -215,7 +218,7 @@ const ArticleHeader = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded shadow-lg ">
+            <div className="p-6 rounded shadow-lg outline-none">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
                 src={blog9}
@@ -243,7 +246,35 @@ const ArticleHeader = () => {
                 </Link>
               </div>
             </div>
-          </div>
+
+            <div className="p-6 rounded shadow-lg outline-none">
+              <img
+                className="object-cover w-full mb-6 shadow-lg xl:h-80"
+                src={blog10}
+                alt=""
+              />
+              <div className="flex justify-start">
+                <span className=" text-sm font-bold leading-none ">
+                Public speaking
+                </span>
+              </div>
+
+              <p className="text-justify mt-4">
+              Rishikesh Kumar is passionate about sharing his knowledge and expertise through public speaking. He believes that public speaking is a powerful tool that can inspire and motivate individuals to take action towards improving their health and well-being.
+              </p>
+
+              <div className="mt-5 text-right">
+                <Link to={"/functionalHealth"}>
+                  <button className="">
+                    <img src={blogArrow} alt="" className="w-24" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+    </Slider>
+
+          
 
           <div className="flex justify-center mt-12">
             <img src={arrow} alt="" />
@@ -253,7 +284,7 @@ const ArticleHeader = () => {
         {/* testing */}
         <div className="lg:px-10 md:px-6 py-12 ">
           <Slider {...settings}>
-            <div className="p-6 rounded shadow-lg ">
+            <div className="p-6 rounded shadow-lg outline-none">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
                 src={article1}
@@ -274,7 +305,7 @@ const ArticleHeader = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded shadow-lg ">
+            <div className="p-6 rounded shadow-lg outline-none">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
                 src={article2}
@@ -295,7 +326,7 @@ const ArticleHeader = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded shadow-lg ">
+            <div className="p-6 rounded shadow-lg outline-none">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
                 src={article3}
@@ -316,7 +347,7 @@ const ArticleHeader = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded shadow-lg ">
+            <div className="p-6 rounded shadow-lg outline-none">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
                 src={article1}
