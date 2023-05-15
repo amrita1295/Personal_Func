@@ -22,7 +22,7 @@ import article2 from "../../../../../assets/article-2.png";
 import article3 from "../../../../../assets/article-3.png";
 import left from "../../../../../assets/left.png";
 import right from "../../../../../assets/right.png";
-import myBlog from '../../../../../assets/MyBlog.png'
+import myBlog from "../../../../../assets/MyBlog.png";
 
 import { Link } from "react-router-dom";
 
@@ -47,18 +47,20 @@ const ArticleHeader = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
           infinite: true,
           dots: true,
         },
       },
+    
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 3,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -76,9 +78,7 @@ const ArticleHeader = () => {
 
   return (
     <div className="blog-header-bg">
-
-<img src={myBlog} alt="" />
-
+      <img src={myBlog} alt="" />
 
       <div className="ml-10 flex justify-start pt-24">
         <img src={dot} alt="" className="w-16" />
@@ -157,9 +157,7 @@ const ArticleHeader = () => {
         <h1 className="text-center article-title pt-12">New article</h1>
 
         <div className="lg:px-10 md:px-6 py-12 ">
-
-    <Slider {...settings}>
-
+          <Slider {...settings}>
             <div className="p-6 rounded shadow-lg outline-none">
               <img
                 className="object-cover w-full mb-6 shadow-lg xl:h-80"
@@ -255,12 +253,16 @@ const ArticleHeader = () => {
               />
               <div className="flex justify-start">
                 <span className=" text-sm font-bold leading-none ">
-                Public speaking
+                  Public speaking
                 </span>
               </div>
 
               <p className="text-justify mt-4">
-              Rishikesh Kumar is passionate about sharing his knowledge and expertise through public speaking. He believes that public speaking is a powerful tool that can inspire and motivate individuals to take action towards improving their health and well-being.
+                Rishikesh Kumar is passionate about sharing his knowledge and
+                expertise through public speaking. He believes that public
+                speaking is a powerful tool that can inspire and motivate
+                individuals to take action towards improving their health and
+                well-being.
               </p>
 
               <div className="mt-5 text-right">
@@ -271,10 +273,7 @@ const ArticleHeader = () => {
                 </Link>
               </div>
             </div>
-
-    </Slider>
-
-          
+          </Slider>
 
           <div className="flex justify-center mt-12">
             <img src={arrow} alt="" />
