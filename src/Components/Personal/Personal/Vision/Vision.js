@@ -12,10 +12,14 @@ const Vision = () => {
     <div className="vision-bg">
       <h1 className="text-center vision-title">Our Mission</h1>
 
-      <Video className="mx-auto mt-20 video" poster = {thumb}>
-        <source className="rounded-3xl" src={video1} type="video/mp4" />
-      </Video>
-{/* 
+        <Video
+          className="mx-auto mt-20 lg:w-[50rem] md:w-[40rem] video"
+          poster={thumb}
+        >
+          <source className="" src={video1} type="video/mp4" />
+        </Video>
+
+      {/* 
       <div className="main mt-10">
         <div className="flex justify-center  container-1">
           <Link

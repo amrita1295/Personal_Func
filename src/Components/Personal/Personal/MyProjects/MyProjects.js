@@ -5,8 +5,9 @@ import myProjectsPic from "../../../../assets/MyProjects.png";
 const MyProjects = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
+      <img src={myProjectsPic} alt="" />
       <div className="mx-auto w-3/4">
-        <img src={myProjectsPic} alt="" />
+        
 
         <p className="mt-10 text-justify">
           Rishi has participated in several projects promoting health and

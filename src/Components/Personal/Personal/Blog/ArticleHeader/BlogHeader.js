@@ -21,6 +21,7 @@ import article2 from "../../../../../assets/article-2.png";
 import article3 from "../../../../../assets/article-3.png";
 import left from "../../../../../assets/left.png";
 import right from "../../../../../assets/right.png";
+import myBlog from '../../../../../assets/MyBlog.png'
 
 import { Link } from "react-router-dom";
 
@@ -74,6 +75,10 @@ const ArticleHeader = () => {
 
   return (
     <div className="blog-header-bg">
+
+<img src={myBlog} alt="" />
+
+
       <div className="ml-10 flex justify-start pt-24">
         <img src={dot} alt="" className="w-16" />
       </div>
