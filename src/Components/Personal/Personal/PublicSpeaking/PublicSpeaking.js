@@ -6,7 +6,7 @@ import publicSpeakingPic from "../../../../assets/public-speaking-blog.png";
 const PublicSpeaking = () => {
   return (
     <div className=" bg-[#FBF8F0] pb-12">
-        <img src={publicSpeakingPic} alt="" />
+        <img src={publicSpeakingPic} alt="" className="w-full"/>
       <div className="mx-auto w-3/4">
         {/* <p className="mt-10 text-justify">
           Rishi has participated in several projects promoting health and

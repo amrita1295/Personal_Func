@@ -10,8 +10,9 @@ import media3 from "../../../../../assets/media-3.1.jpg";
 import media4 from "../../../../../assets/media-4.1.png";
 import blogArrow from "../../../../../assets/blog-arrow.png";
 import mediaHeader from "../../../../../assets/media-header.png";
-import left from "../../../../../assets/left-arrow.png";
-import right from "../../../../../assets/right-arrow.png";
+import left from "../../../../../assets/left.png";
+import right from "../../../../../assets/right.png";
+import line from "../../../../../assets/line.png";
 import slider1 from "../../../../../assets/media-slider-1.png";
 import slider2 from "../../../../../assets/media-slider-2.png";
 import slider3 from "../../../../../assets/media-slider-3.png";
@@ -38,14 +39,26 @@ const Media = () => {
 
   return (
     <div className="bg-media">
-      <div className="mx-auto w-[72%]">
+      <div className="bg-white pt-24 pb-20 lg:px-24 px-12">
         <Slider {...settings} ref={sliderRef}>
-          <div className="pt-24 pb-10  lg:px-24 px-12">
-            <img src={slider1} alt="" />
-            <p className="text-center lg:px-44  mt-6">
-              "Xtraliving transforming health solution by focusing on movement,
-              nutrition, sleep and stress.
-            </p>
+          <div className="">
+            <div className="flex flex-col lg:flex-row">
+              <img src={slider1} alt="" className="lg:w-96 md:w-64 w-44 mx-auto"/>
+              <div
+                tabIndex={0}
+                className="collapse collapse-open bg-white lg:mt-16 md:mt-10 mt-10 lg:px-16 md:px-16 px-4"
+              >
+                <div className="collapse-title text-xl font-medium">
+                  <div className="border-left flex items-center font-bold">
+                    <p className="ml-3 text-[#000000] font-sm">
+                      Xtraliving transforming health solution by focusing on
+                      movement, nutrition, sleep and stress.
+                    </p>
+                  </div>
+                </div>
+                <div className="collapse-content"></div>
+              </div>
+            </div>
           </div>
           <div className="pt-24 pb-10 lg:px-64 px-12">
             <img src={slider2} alt="" />
@@ -61,22 +74,23 @@ const Media = () => {
               expertise and understanding of market.
             </p>
           </div>
-          <div className="lg:pt-0 md:pt-0 pt-36 lg:px-40 px-12">
-            <img src={slider4} alt="" />
-            <p className="text-center lg:px-44 md:px-24   mt-6">
-              ""Xtraliving collaborate with Govt. of Maharashtra to spread
-              awareness among 12 million students about health. "
-            </p>
-          </div>
         </Slider>
-        <div style={{ textAlign: "center" }}>
-          <button className="button mx-8 mt-6" onClick={handlePrev}>
-            <img src={left} />
+
+        <div style={{ textAlign: "center" }} className="flex justify-center">
+          <button className="button" onClick={handlePrev}>
+            <img src={left} className="w-10" alt="" />
           </button>
-          <button className="button" onClick={handleNext}>
-            <img src={right} />
+          <div>
+            <img src={line} alt="" className="mt-5 ml-3 mr-3" />
+          </div>
+          <button className="button " onClick={handleNext}>
+            <img src={right} alt="" className="w-10" />
           </button>
         </div>
+      </div>
+
+      <div className="mx-auto w-[72%]">
+       
 
         <div
           tabIndex={0}

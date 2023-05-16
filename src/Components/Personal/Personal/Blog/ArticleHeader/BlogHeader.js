@@ -78,7 +78,7 @@ const ArticleHeader = () => {
 
   return (
     <div className="blog-header-bg">
-      <img src={myBlog} alt="" />
+      <img src={myBlog} alt="" className="w-full"/>
 
       <div className="ml-10 flex justify-start pt-24">
         <img src={dot} alt="" className="w-16" />

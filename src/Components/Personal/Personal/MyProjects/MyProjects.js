@@ -5,7 +5,7 @@ import myProjectsPic from "../../../../assets/MyProjects.png";
 const MyProjects = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
-      <img src={myProjectsPic} alt="" />
+      <img src={myProjectsPic} alt="" className="w-full"/>
       <div className="mx-auto w-3/4">
         
 
