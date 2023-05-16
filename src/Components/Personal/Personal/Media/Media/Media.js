@@ -229,11 +229,10 @@ const Media = () => {
               <Link to={"/fitnessChampionship"}>
                 <div>
                   <img src={event3} alt="" className="" />
-                  <h1 className="ml-7 font-bold">
-                    eNERGIZE fitness championship
-                  </h1>
+                  <h1 className="ml-7 font-bold">eNERGIZE fitness championship</h1>
                 </div>
               </Link>
+           
               <Link to={"/bootcamp"}>
                 <div>
                   <img src={event4} alt="" className="" />
