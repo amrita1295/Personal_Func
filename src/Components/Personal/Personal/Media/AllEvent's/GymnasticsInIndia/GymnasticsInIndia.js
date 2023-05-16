@@ -7,6 +7,15 @@ const GymnasticsInIndia = () => {
       <div className="mx-auto w-3/4">
         <img src={pic1} alt="" />
 
+        <div>
+          <h2 className="text-center mt-6 font-bold text-[#000000]">
+          Mr Sudhir Mital
+          </h2>
+          <p className="text-center mt-5 text-[#636363]">
+          President, Gymnastics Federation of India.
+          </p>
+        </div>
+
         <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
@@ -34,7 +43,10 @@ const GymnasticsInIndia = () => {
             <p className="mt-6 font-bold">Date: 4th July, 2020</p>
             <p className="mt-6 font-bold">Time: 4PM</p>
 
-            <p className="mt-7 text-justify">Event organized in collaboration with Directorate Of Sports and Youth Services, Maharashtra.</p>
+            <p className="mt-7 text-justify">
+              Event organized in collaboration with Directorate Of Sports and
+              Youth Services, Maharashtra.
+            </p>
           </div>
         </div>
       </div>

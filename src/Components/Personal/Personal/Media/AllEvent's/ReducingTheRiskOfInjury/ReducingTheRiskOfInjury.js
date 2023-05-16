@@ -6,6 +6,15 @@ const ReducingTheRiskOfInjury = () => {
       <div className="mx-auto w-3/4">
         <img src={pic1} alt="" />
 
+        <div>
+          <h2 className="text-center mt-6 font-bold text-[#000000]">
+          Dr Romanov
+          </h2>
+          <p className="text-center mt-5 lg:px-80 md:px-32 px-0 text-[#3A3A3A]">
+          Seniors sports scientist in US. Author of many top selling books including “Running Revolution”
+          </p>
+        </div>
+
         <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">

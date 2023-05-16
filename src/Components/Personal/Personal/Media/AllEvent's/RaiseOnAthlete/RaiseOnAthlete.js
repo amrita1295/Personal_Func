@@ -6,9 +6,8 @@ import pic1 from "../../../../../../assets/raiseOnAthlete-2.png";
 const RaiseOnAthlete = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
+         <img src={pic1} alt="" className="w-full"/>
       <div className="mx-auto w-3/4">
-        <img src={pic1} alt="" />
-
         <p className="mt-10 text-justify">
           Sports has become incredibly demanding. Today, talent alone is not
           enough to be among the best. This requires huge amounts of work and

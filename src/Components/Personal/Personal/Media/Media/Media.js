@@ -213,30 +213,30 @@ const Media = () => {
             </div>
           </div>
           <div className="collapse-content">
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-3">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-7 mt-5">
               <Link to={"/quizCompetition"}>
                 <div>
-                  <img src={event1} alt="" className="" />
-                  <h1 className="ml-7 font-bold">eNERGIZE Quiz Competition</h1>
+                  <img src={event1} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-3 font-bold">eNERGIZE Quiz Competition</h1>
                 </div>
               </Link>
               <Link to={"/goGirl"}>
                 <div>
-                  <img src={event2} alt="" className="" />
-                  <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
+                  <img src={event2} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-3  font-bold">Go Girl Go campaign</h1>
                 </div>
               </Link>
               <Link to={"/fitnessChampionship"}>
                 <div>
-                  <img src={event3} alt="" className="" />
-                  <h1 className="ml-7 font-bold">eNERGIZE fitness championship</h1>
+                  <img src={event3} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-3  font-bold">eNERGIZE fitness championship</h1>
                 </div>
               </Link>
            
               <Link to={"/bootcamp"}>
                 <div>
-                  <img src={event4} alt="" className="" />
-                  <h1 className="ml-7 font-bold">eNERGIZE Bootcamp</h1>
+                  <img src={event4} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-3 font-bold">eNERGIZE Bootcamp</h1>
                 </div>
               </Link>
             </div>

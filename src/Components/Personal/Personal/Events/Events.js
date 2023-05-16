@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 
 const Events = () => {
   return (
-    <div className="event-bg">
+    <div className="event-bg pb-16">
       <div className="mx-auto w-10/12">
         {/* <div
           tabIndex={0}
@@ -74,27 +74,27 @@ const Events = () => {
               </Link>
               <Link to={"/goGirl"}>
                 <div>
-                  <img src={pic5} alt="" className="" />
-                  <h1 className="ml-7 font-bold">Go Girl Go campaign</h1>
+                  <img src={pic5} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-2 font-bold">Go Girl Go campaign</h1>
                 </div>
               </Link>
               <Link to={"/fitnessChampionship"}>
                 <div>
-                  <img src={pic6} alt="" className="" />
-                  <h1 className="ml-7 font-bold">
+                  <img src={pic6} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-2 font-bold">
                     eNERGIZE fitness championship
                   </h1>
                 </div>
               </Link>
               <Link to={"/bootcamp"}>
                 <div>
-                  <img src={pic7} alt="" className="" />
-                  <h1 className="ml-7 font-bold">eNERGIZE Bootcamp</h1>
+                  <img src={pic7} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-2 font-bold">eNERGIZE Bootcamp</h1>
                 </div>
               </Link>
             </div>
 
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-5">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-5 mt-8">
               <Link to={"/eyeHealthSeminar"}>
                 <div>
                   <img src={pic8} alt="" className="" />
@@ -111,23 +111,23 @@ const Events = () => {
               </Link>
               <Link to={"/gymnasticsInIndia"}>
                 <div>
-                  <img src={pic10} alt="" className="" />
-                  <h1 className="ml-7 font-bold">Gymnastics in India</h1>
+                  <img src={pic10} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-2 font-bold">Gymnastics in India</h1>
                 </div>
               </Link>
               <Link to={"/quizCompetition"}>
                 <div>
-                  <img src={pic11} alt="" className="" />
-                  <h1 className="ml-7 font-bold">eNERGIZE quiz competition</h1>
+                  <img src={pic11} alt="" className="rounded-[16px]" />
+                  <h1 className="mt-2 font-bold">eNERGIZE quiz competition</h1>
                 </div>
               </Link>
             </div>
 
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-5">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-5 mt-8">
               <Link to={"/myopiaAwareness"}>
                 <div>
                   <img src={pic12} alt="" className="" />
-                  <h1 className=" font-bold mt-2">Myopia awareness talk​</h1>
+                  <h1 className="font-bold mt-2">Myopia awareness talk​</h1>
                 </div>
               </Link>
             </div>

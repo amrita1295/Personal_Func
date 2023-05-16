@@ -4,15 +4,15 @@ import "./MyopiaAwareness.css";
 import pic1 from "../../../../../../assets/myopiaAwareness.png";
 import pic2 from "../../../../../../assets/myopia-pic-1.png";
 
-import speaker1 from '../../../../../../assets/myopia-speaker-1.png'
-import speaker2 from '../../../../../../assets/myopia-speaker-2.png'
-import speaker3 from '../../../../../../assets/myopia-speaker-3.png'
+import speaker1 from "../../../../../../assets/myopia-speaker-1.png";
+import speaker2 from "../../../../../../assets/myopia-speaker-2.png";
+import speaker3 from "../../../../../../assets/myopia-speaker-3.png";
 
 const MyopiaAwareness = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
+      <img src={pic1} alt="" className="w-full" />
       <div className="mx-auto w-3/4">
-        <img src={pic1} alt="" />
         <div
           tabIndex={0}
           className="collapse collapse-open bg-[#FBF8F0] mt-20 "
@@ -25,7 +25,10 @@ const MyopiaAwareness = () => {
             </div>
           </div>
           <div className="collapse-content">
-            <p className="text-justify mt-12">
+            <p className="mt-6 font-bold text-[#000000]">Date: 4th July, 2020</p>
+            <p className="mt-6 font-bold text-[#000000]">Time: 4PM</p>
+
+            <p className="text-justify mt-32">
               Agenda of this interactive online program:
             </p>
             <p className="mt-4">
@@ -112,35 +115,54 @@ const MyopiaAwareness = () => {
 
         <h1 className="myopia-title text-center mt-12">Speakers</h1>
 
-
         <div className="flex justify-center mx-8 mt-8">
-        <div className="flex lg:gap-10 gap-8 items-center flex-col lg:flex-row">
-          <div>
-            <img src={speaker1} alt="" className="w-52 mx-auto" />
-            <h3 className="speaker-name mb-2">Mr. Kevin Tay</h3>
-            <p className="text-justify">
-            Kevin is Plano’s Chief Operating Officer who is passionate about the company’s vision: “Keeping all eyes healthy in a digitized world”. Kevin is an MBA graduate from the Nanyang Business School, with a Master’s in Strategy and International Management from the University of St. Gallen, Switzerland. He also has a Bachelor’s in Chemical Engineering from the National University of Singapore (NUS).
-            </p>
-          </div>
+          <div className="flex lg:gap-10 gap-8 items-center flex-col lg:flex-row">
+            <div>
+              <img src={speaker1} alt="" className="w-52 mx-auto" />
+              <h3 className="speaker-name mb-2">Mr. Kevin Tay</h3>
+              <p className="text-justify">
+                Kevin is Plano’s Chief Operating Officer who is passionate about
+                the company’s vision: “Keeping all eyes healthy in a digitized
+                world”. Kevin is an MBA graduate from the Nanyang Business
+                School, with a Master’s in Strategy and International Management
+                from the University of St. Gallen, Switzerland. He also has a
+                Bachelor’s in Chemical Engineering from the National University
+                of Singapore (NUS).
+              </p>
+            </div>
 
-          <div>
-            <img src={speaker2} alt="" className="w-52 mx-auto" />
-            <h3 className="speaker-name mb-2">Mr. Arief Tjitra Salim</h3>
-            <p className="text-justify">
-            Arief is a Senior Research Scientist at Plano Pte Ltd. Arief graduated from Nanyang Technological University (NTU) was amongst the top 5% of his cohort. To date, he has conducted over 60 eye health talks, reaching out to more than 50,000 primary school children and teachers across Singapore and abroad. He has also authored three universal reports concerning parental awareness and knowledge about myopia, as well as digital eye strain in both adults and children.
-            </p>
-          </div>
+            <div>
+              <img src={speaker2} alt="" className="w-52 mx-auto" />
+              <h3 className="speaker-name mb-2">Mr. Arief Tjitra Salim</h3>
+              <p className="text-justify">
+                Arief is a Senior Research Scientist at Plano Pte Ltd. Arief
+                graduated from Nanyang Technological University (NTU) was
+                amongst the top 5% of his cohort. To date, he has conducted over
+                60 eye health talks, reaching out to more than 50,000 primary
+                school children and teachers across Singapore and abroad. He has
+                also authored three universal reports concerning parental
+                awareness and knowledge about myopia, as well as digital eye
+                strain in both adults and children.
+              </p>
+            </div>
 
-          <div>
-            <img src={speaker3} alt="" className="w-52 mx-auto" />
-            <h3 className="speaker-name mb-2">Dr. Anitha D Praveen</h3>
-            <p className="text-justify">
-            Anitha is a Senior Research Scientist at Plano Pte Ltd. Having majored in Biomedical Engineering, she has more than 10 years of research expertise. Being a recipient of the Singapore University of Technology and Design (SUTD) scholarship, she successfully completed her PhD from SUTD with over 5 high-impact journal articles published as the first author. Prior to her doctorate studies, she also graduated with her Bachelors and Masters of Engineering from National University of Singapore (NUS).
-            </p>
+            <div>
+              <img src={speaker3} alt="" className="w-52 mx-auto" />
+              <h3 className="speaker-name mb-2">Dr. Anitha D Praveen</h3>
+              <p className="text-justify">
+                Anitha is a Senior Research Scientist at Plano Pte Ltd. Having
+                majored in Biomedical Engineering, she has more than 10 years of
+                research expertise. Being a recipient of the Singapore
+                University of Technology and Design (SUTD) scholarship, she
+                successfully completed her PhD from SUTD with over 5 high-impact
+                journal articles published as the first author. Prior to her
+                doctorate studies, she also graduated with her Bachelors and
+                Masters of Engineering from National University of Singapore
+                (NUS).
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-
       </div>
     </div>
   );
