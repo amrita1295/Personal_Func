@@ -17,6 +17,8 @@ import slider1 from "../../../../../assets/media-slider-1.png";
 import slider2 from "../../../../../assets/media-slider-2.png";
 import slider3 from "../../../../../assets/media-slider-3.png";
 import slider4 from "../../../../../assets/media-slider-4.png";
+import slider5 from "../../../../../assets/media-slider-5.png";
+import slider6 from "../../../../../assets/media-slider-6.png";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -43,14 +45,18 @@ const Media = () => {
         <Slider {...settings} ref={sliderRef}>
           <div className="">
             <div className="flex flex-col lg:flex-row">
-              <img src={slider1} alt="" className="lg:w-96 md:w-64 w-44 mx-auto"/>
+              <img
+                src={slider1}
+                alt=""
+                className="lg:w-96 md:w-64 w-44 mx-auto"
+              />
               <div
                 tabIndex={0}
                 className="collapse collapse-open bg-white lg:mt-16 md:mt-10 mt-10 lg:px-16 md:px-16 px-4"
               >
                 <div className="collapse-title text-xl font-medium">
                   <div className="border-left flex items-center font-bold">
-                    <p className="ml-3 text-[#000000] font-sm">
+                    <p className="ml-3 text-[#000000] lg:text-xl md:text-xl text-sm">
                       Xtraliving transforming health solution by focusing on
                       movement, nutrition, sleep and stress.
                     </p>
@@ -60,19 +66,126 @@ const Media = () => {
               </div>
             </div>
           </div>
-          <div className="pt-24 pb-10 lg:px-64 px-12">
-            <img src={slider2} alt="" />
-            <p className="text-center lg:px-10  mt-6">
-              ""Xtraliving building health solution specific for corporate
-              employees by focusing on their lifestyle.
-            </p>
+
+          <div className="">
+            <div className="flex flex-col lg:flex-row">
+              <img
+                src={slider2}
+                alt=""
+                className="lg:w-80 h-16 md:w-64 w-44 mx-auto lg:mt-16"
+              />
+              <div
+                tabIndex={0}
+                className="collapse collapse-open bg-white lg:mt-16 md:mt-10 mt-10 lg:px-16 md:px-16 px-4"
+              >
+                <div className="collapse-title text-xl font-medium">
+                  <div className="border-left flex items-center font-bold">
+                    <p className="ml-3 text-[#000000] lg:text-xl md:text-xl text-sm">
+                      Xtraliving building health solution specific for corporate
+                      employees by focusing on their lifestyle.
+                    </p>
+                  </div>
+                </div>
+                <div className="collapse-content"></div>
+              </div>
+            </div>
           </div>
-          <div className="pt-24 pb-10   lg:px-64 px-12">
-            <img src={slider3} alt="" />
-            <p className="text-center lg:px-10   mt-6">
-              ""Fitness company building deep tech solution using their training
-              expertise and understanding of market.
-            </p>
+
+          <div className="">
+            <div className="flex flex-col lg:flex-row">
+              <img
+                src={slider3}
+                alt=""
+                className="lg:w-80 h-32 md:w-64 w-44 mx-auto lg:mt-9"
+              />
+              <div
+                tabIndex={0}
+                className="collapse collapse-open bg-white lg:mt-16 md:mt-10 mt-10 lg:px-20 md:px-16 px-4"
+              >
+                <div className="collapse-title text-xl font-medium">
+                  <div className="border-left flex items-center font-bold">
+                    <p className="ml-3 text-[#000000] lg:text-xl md:text-xl text-sm">
+                      Fitness company building deep tech solution using their
+                      training expertise and understanding of market.
+                    </p>
+                  </div>
+                </div>
+                <div className="collapse-content"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="">
+            <div className="flex flex-col lg:flex-row">
+              <img
+                src={slider4}
+                alt=""
+                className="lg:w-96 h-24 md:w-64 w-44 mx-auto lg:mt-9"
+              />
+              <div
+                tabIndex={0}
+                className="collapse collapse-open bg-white lg:mt-16 md:mt-10 mt-10 lg:px-20 md:px-16 px-4"
+              >
+                <div className="collapse-title text-xl font-medium">
+                  <div className="border-left flex items-center font-bold">
+                    <p className="ml-3 text-[#000000] lg:text-xl md:text-xl text-sm">
+                      Xtraliving collaborate with Govt. of Maharashtra to spread
+                      awareness among 12 million students about health. "
+                    </p>
+                  </div>
+                </div>
+                <div className="collapse-content"></div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="">
+            <div className="flex flex-col lg:flex-row">
+              <img
+                src={slider5}
+                alt=""
+                className="lg:w-72 h-32 md:w-64 w-44 mx-auto lg:mt-8"
+              />
+              <div
+                tabIndex={0}
+                className="collapse collapse-open bg-white lg:mt-16 md:mt-10 mt-10 lg:pr-52 lg:px-16 md:px-16 px-4"
+              >
+                <div className="collapse-title text-xl font-medium">
+                  <div className="border-left flex items-center font-bold">
+                    <p className="ml-3 text-[#000000] lg:text-xl md:text-xl text-sm">
+                     Xtraliving collaborates with NCC and Sports Dept of Maharashtra to encourage girl students to participate in sports.
+                    </p>
+                  </div>
+                </div>
+                <div className="collapse-content"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="">
+            <div className="flex flex-col lg:flex-row">
+              <img
+                src={slider6}
+                alt=""
+                className="lg:w-80 lg:h-16 md:w-64 w-52 h-10 mx-auto lg:mt-16"
+              />
+              <div
+                tabIndex={0}
+                className="collapse collapse-open bg-white lg:mt-16 md:mt-10 mt-10 lg:px-12 md:px-16 px-4"
+              >
+                <div className="collapse-title text-xl font-medium">
+                  <div className="border-left flex items-center font-bold">
+                    <p className="ml-3 text-[#000000] lg:text-xl md:text-xl text-sm">
+                    Xtraliving collaborate with Govt. of Maharashtra to spread awareness among 12 million students about health. 
+                    </p>
+                  </div>
+                </div>
+                <div className="collapse-content"></div>
+              </div>
+            </div>
           </div>
         </Slider>
 
@@ -90,8 +203,6 @@ const Media = () => {
       </div>
 
       <div className="mx-auto w-[72%]">
-       
-
         <div
           tabIndex={0}
           className="collapse collapse-open bg-[#FBF8F0] mt-10 "
