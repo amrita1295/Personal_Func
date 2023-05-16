@@ -4,13 +4,14 @@ import "./QuizCompetition.css";
 const QuizCompetition = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
+          <img src={pic1} alt="" className="w-full"/>
       <div className="mx-auto w-3/4">
-        <img src={pic1} alt="" />
-        <div className="flex justify-center mt-10">
+    
+        {/* <div className="flex justify-center mt-10">
           <a href="#" target="blank" className="">
             <button className="fill-btn-1 ">APP LINK</button>
           </a>
-        </div>
+        </div> */}
         <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-8">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">

@@ -3,8 +3,9 @@ import pic1 from "../../../../../../assets/GoGirl.png";
 const GoGirl = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
+      <img src={pic1} alt="" className="w-full"/>
       <div className="mx-auto w-3/4">
-        <img src={pic1} alt="" />
+        
 
         <p className="mt-20 text-justify">
           Go Girl Go campaign has been launched as an initiative by the

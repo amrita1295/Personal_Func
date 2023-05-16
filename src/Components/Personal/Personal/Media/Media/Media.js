@@ -213,7 +213,7 @@ const Media = () => {
             </div>
           </div>
           <div className="collapse-content">
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-3">
               <Link to={"/quizCompetition"}>
                 <div>
                   <img src={event1} alt="" className="" />

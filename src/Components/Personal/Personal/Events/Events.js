@@ -18,7 +18,7 @@ const Events = () => {
   return (
     <div className="event-bg">
       <div className="mx-auto w-10/12">
-        <div
+        {/* <div
           tabIndex={0}
           className="collapse collapse-open bg-[#FBF8F0] pt-10 "
         >
@@ -51,7 +51,7 @@ const Events = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="mx-auto w-10/12">
@@ -65,11 +65,11 @@ const Events = () => {
             </div>
           </div>
           <div className="collapse-content">
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-5 mt-5">
               <Link to={"/raiseOnAthlete"}>
                 <div>
                   <img src={pic4} alt="" className="" />
-                  <h1 className="ml-7 font-bold">Raise an Athlete​</h1>
+                  <h1 className="mt-2 font-bold">Raise an Athlete​</h1>
                 </div>
               </Link>
               <Link to={"/goGirl"}>
@@ -94,17 +94,17 @@ const Events = () => {
               </Link>
             </div>
 
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-5">
               <Link to={"/eyeHealthSeminar"}>
                 <div>
                   <img src={pic8} alt="" className="" />
-                  <h1 className="ml-7 font-bold">Eye health seminar​</h1>
+                  <h1 className="mt-2 font-bold">Eye health seminar​</h1>
                 </div>
               </Link>
               <Link to={"/reducingTheRiskOfInjury"}>
                 <div>
                   <img src={pic9} alt="" className="" />
-                  <h1 className="ml-7 font-bold">
+                  <h1 className="mt-2 font-bold">
                     Reducing the risk of injury
                   </h1>
                 </div>
@@ -123,11 +123,11 @@ const Events = () => {
               </Link>
             </div>
 
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 ml-5">
               <Link to={"/myopiaAwareness"}>
                 <div>
                   <img src={pic12} alt="" className="" />
-                  <h1 className="ml-7 font-bold">Myopia awareness talk​</h1>
+                  <h1 className=" font-bold mt-2">Myopia awareness talk​</h1>
                 </div>
               </Link>
             </div>

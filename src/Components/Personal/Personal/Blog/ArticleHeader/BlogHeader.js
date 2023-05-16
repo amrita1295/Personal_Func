@@ -30,18 +30,18 @@ const ArticleHeader = () => {
   const settings = {
     className: "center",
     arrows: false,
-    dots: true,
+    // dots: true,
     infinite: false,
     speed: 500,
     // dotsClass: 'custom-dots',
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
-    customPaging: (i) => (
-      <div style={{ width: "50px", height: "50px" }} className="custom">
-        {i === 0 ? <img src={left} alt="" /> : <img src={right} alt="" />}
-      </div>
-    ),
+    // customPaging: (i) => (
+    //   <div style={{ width: "50px", height: "50px" }} className="custom">
+    //     {i === 0 ? <img src={left} alt="" /> : <img src={right} alt="" />}
+    //   </div>
+    // ),
 
     responsive: [
       {
@@ -51,7 +51,7 @@ const ArticleHeader = () => {
           slidesToScroll: 1,
           initialSlide: 1,
           infinite: true,
-          dots: true,
+          // dots: true,
         },
       },
     
@@ -70,7 +70,7 @@ const ArticleHeader = () => {
           slidesToScroll: 1,
           initialSlide: 1,
           speed: 1000,
-          dots: false,
+          // dots: false,
         },
       },
     ],
@@ -275,9 +275,7 @@ const ArticleHeader = () => {
             </div>
           </Slider>
 
-          <div className="flex justify-center mt-12">
-            <img src={arrow} alt="" />
-          </div>
+        
         </div>
 
         {/* testing */}
