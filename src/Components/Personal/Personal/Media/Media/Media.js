@@ -202,7 +202,9 @@ const Media = () => {
         </div>
       </div>
 
-      <div className="mx-auto w-[72%]">
+
+    {/* previous width w-[72%] */}
+      <div className="mx-auto w-10/12">  
         <div
           tabIndex={0}
           className="collapse collapse-open bg-[#FBF8F0] mt-10 "
