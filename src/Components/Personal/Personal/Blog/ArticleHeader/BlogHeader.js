@@ -30,7 +30,7 @@ const ArticleHeader = () => {
   const settings = {
     className: "center",
     arrows: false,
-    // dots: true,
+    dots: true,
     infinite: false,
     speed: 500,
     // dotsClass: 'custom-dots',
@@ -51,10 +51,10 @@ const ArticleHeader = () => {
           slidesToScroll: 1,
           initialSlide: 1,
           infinite: true,
-          // dots: true,
+          dots: true,
         },
       },
-    
+
       {
         breakpoint: 600,
         settings: {
@@ -70,7 +70,7 @@ const ArticleHeader = () => {
           slidesToScroll: 1,
           initialSlide: 1,
           speed: 1000,
-          // dots: false,
+          dots: false,
         },
       },
     ],
@@ -78,7 +78,7 @@ const ArticleHeader = () => {
 
   return (
     <div className="blog-header-bg">
-      <img src={myBlog} alt="" className="w-full"/>
+      <img src={myBlog} alt="" className="w-full" />
 
       <div className="ml-10 flex justify-start pt-24">
         <img src={dot} alt="" className="w-16" />
@@ -274,8 +274,6 @@ const ArticleHeader = () => {
               </div>
             </div>
           </Slider>
-
-        
         </div>
 
         {/* testing */}
@@ -343,28 +341,10 @@ const ArticleHeader = () => {
                 </Link>
               </div>
             </div>
-
-            <div className="p-6 rounded shadow-lg outline-none">
-              <img
-                className="object-cover w-full mb-6 shadow-lg xl:h-80"
-                src={article1}
-                alt=""
-              />
-              <div className="flex justify-start">
-                <span className=" text-sm font-bold leading-none ">
-                  Physical fitness in senior women
-                </span>
-              </div>
-
-              <div className="mt-5 text-right">
-                <Link to={"/physicalFitness"}>
-                  <button className="">
-                    <img src={blogArrow} alt="" className="w-24" />
-                  </button>
-                </Link>
-              </div>
-            </div>
           </Slider>
+          <div className="flex justify-center mt-20">
+            <img src={arrow} alt="" />
+          </div>
         </div>
       </div>
     </div>

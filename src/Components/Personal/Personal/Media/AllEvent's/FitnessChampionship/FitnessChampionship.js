@@ -11,8 +11,8 @@ import "./FitnessChampionship.css";
 const FitnessChampionship = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
+      <img src={pic1} alt="" className="w-full" />
       <div className="mx-auto w-10/12">
-        <img src={pic1} alt="" />
         <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
@@ -265,7 +265,7 @@ const FitnessChampionship = () => {
           </p>
         </div>
 
-        <div>
+        {/* <div>
           <div>
             <h1 className="text-center mt-12 font-bold text-[#000000] text-[23px]">
               Category for under 18
@@ -290,13 +290,13 @@ const FitnessChampionship = () => {
               you haven’t been consistent, here is where you start.
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <h1 className="text-center mt-12 font-bold text-[#000000] text-[23px]">
+        {/* <h1 className="text-center mt-12 font-bold text-[#000000] text-[23px]">
           There is no failure, there is only feedback!
-        </h1>
+        </h1> */}
 
-        <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
+        {/* <div tabIndex={0} className="collapse collapse-open bg-[#FBF8F0] mt-20">
           <div className="collapse-title text-xl font-medium">
             <div className="border-left flex items-center font-bold">
               <p className="ml-3 text-[#000000]">Important Instructions</p>
@@ -319,9 +319,9 @@ const FitnessChampionship = () => {
               </li>
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+        {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
           <div>
             <div
               tabIndex={0}
@@ -417,17 +417,19 @@ const FitnessChampionship = () => {
               </div>
             </div>
           </div>
-        </div>
-
+        </div> */}
+{/* 
         <h1 className="text-center font-bold text-[30px] mt-24 text-[#000000]">
           Submit your score here
-        </h1>
+        </h1> */}
 
-        <div className="flex justify-center mt-16 mb-16">
+        {/* <div className="flex justify-center mt-16 mb-16">
           <a href="#" target="blank" className="">
-            <button className="fill-btn-1 text-[#000000]">CLICK TO SUBMIT YOUR SCORE</button>
+            <button className="fill-btn-1 text-[#000000]">
+              CLICK TO SUBMIT YOUR SCORE
+            </button>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
