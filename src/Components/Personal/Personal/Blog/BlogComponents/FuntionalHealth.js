@@ -5,7 +5,7 @@ import arrow from "../../../../../assets/Arrow.png";
 const FuntionalHealth = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
-        <img src={functionalHealth} alt="" />
+        <img src={functionalHealth} alt="" className="w-full"/>
       <div className="mx-auto w-3/4">
         <div
           tabIndex={0}

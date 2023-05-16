@@ -5,7 +5,7 @@ import arrow from "../../../../../assets/Arrow.png";
 const PublicSpeakingBlog = () => {
   return (
     <div className="bg-[#FBF8F0] pb-12">
-      <img src={publicPic} alt="" />
+      <img src={publicPic} alt="" className="w-full"/>
       <div className="mx-auto w-3/4">
         <div
           tabIndex={0}
