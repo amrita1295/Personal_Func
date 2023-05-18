@@ -139,8 +139,6 @@ const Media = () => {
             </div>
           </div>
 
-
-
           <div className="">
             <div className="flex flex-col lg:flex-row">
               <img
@@ -155,7 +153,9 @@ const Media = () => {
                 <div className="collapse-title text-xl font-medium">
                   <div className="border-left flex items-center font-bold">
                     <p className="ml-3 text-[#000000] lg:text-xl md:text-xl text-sm">
-                     Xtraliving collaborates with NCC and Sports Dept of Maharashtra to encourage girl students to participate in sports.
+                      Xtraliving collaborates with NCC and Sports Dept of
+                      Maharashtra to encourage girl students to participate in
+                      sports.
                     </p>
                   </div>
                 </div>
@@ -163,7 +163,6 @@ const Media = () => {
               </div>
             </div>
           </div>
-
 
           <div className="">
             <div className="flex flex-col lg:flex-row">
@@ -179,7 +178,8 @@ const Media = () => {
                 <div className="collapse-title text-xl font-medium">
                   <div className="border-left flex items-center font-bold">
                     <p className="ml-3 text-[#000000] lg:text-xl md:text-xl text-sm">
-                    Xtraliving collaborate with Govt. of Maharashtra to spread awareness among 12 million students about health. 
+                      Xtraliving collaborate with Govt. of Maharashtra to spread
+                      awareness among 12 million students about health.
                     </p>
                   </div>
                 </div>
@@ -202,9 +202,8 @@ const Media = () => {
         </div>
       </div>
 
-
-    {/* previous width w-[72%] */}
-      <div className="mx-auto w-10/12">  
+      {/* previous width w-[72%] */}
+      <div className="mx-auto w-10/12">
         <div
           tabIndex={0}
           className="collapse collapse-open bg-[#FBF8F0] mt-10 "
@@ -231,10 +230,12 @@ const Media = () => {
               <Link to={"/fitnessChampionship"}>
                 <div>
                   <img src={event3} alt="" className="rounded-[16px]" />
-                  <h1 className="mt-3  font-bold">eNERGIZE fitness championship</h1>
+                  <h1 className="mt-3  font-bold">
+                    eNERGIZE fitness championship
+                  </h1>
                 </div>
               </Link>
-           
+
               <Link to={"/bootcamp"}>
                 <div>
                   <img src={event4} alt="" className="rounded-[16px]" />
