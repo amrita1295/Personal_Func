@@ -204,6 +204,57 @@ const PersonalNavbar = () => {
                       )}
                     </Menu.Item>
                   </div>
+                  <div className="px-1 py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link to={"/parents"}>
+                          <button
+                            className={`${
+                              active
+                                ? "bg-gray-100 text-black "
+                                : "text-gray-900"
+                            } group flex w-full items-center rounded-md px-2 py-2 text-sm `}
+                          >
+                            Parents
+                          </button>
+                        </Link>
+                      )}
+                    </Menu.Item>
+                  </div>
+                  <div className="px-1 py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link to={"/leaders"}>
+                          <button
+                            className={`${
+                              active
+                                ? "bg-gray-100 text-black "
+                                : "text-gray-900"
+                            } group flex w-full items-center rounded-md px-2 py-2 text-sm `}
+                          >
+                            Leaders
+                          </button>
+                        </Link>
+                      )}
+                    </Menu.Item>
+                  </div>
+                  <div className="px-1 py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link to={"/athletes"}>
+                          <button
+                            className={`${
+                              active
+                                ? "bg-gray-100 text-black "
+                                : "text-gray-900"
+                            } group flex w-full items-center rounded-md px-2 py-2 text-sm `}
+                          >
+                            Athletes
+                          </button>
+                        </Link>
+                      )}
+                    </Menu.Item>
+                  </div>
                 </Menu.Items>
               </Transition>
             </Menu>

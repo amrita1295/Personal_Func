@@ -1,0 +1,16 @@
+.Athletes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'League Spartan', sans-serif;
+}
+.Athletes h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.Athletes p{
+    font-size: 1.1rem;
+}
+.Athletes h3{
+    font-weight: 700;
+}
