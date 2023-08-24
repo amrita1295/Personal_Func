@@ -108,7 +108,7 @@ const PersonalNavbar = () => {
                                 : "text-gray-900"
                             } group flex w-full items-center rounded-md px-2 py-2 text-sm `}
                           >
-                            My Projects
+                            My Project
                           </button>
                         </Link>
                       )}
