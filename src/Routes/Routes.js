@@ -29,6 +29,9 @@ import RaiseOnAthlete from "../Components/Personal/Personal/Media/AllEvent's/Rai
 import AllMedia from "../Components/Personal/Personal/Media/AllMedia's/AllMedia";
 import Terms from "../Components/Personal/Personal/Terms/Terms";
 import PublicSpeakingBlog from './../Components/Personal/Personal/Blog/BlogComponents/PublicSpeakingBlog';
+import Athletes from "../Components/Personal/Personal/Athletes/Athletes"
+import Parents from "../Components/Personal/Personal/Parents/Parents"
+import Performance from "../Components/Personal/Personal/Performance/Performance"
 
 
 
@@ -163,6 +166,18 @@ const router = createBrowserRouter([
       {
         path: "/terms",
         element: <Terms></Terms>,
+      },
+      {
+        path: "/athletes",
+        element: <Athletes></Athletes>,
+      },
+      {
+        path: "/leaders",
+        element: <Performance></Performance>,
+      },
+      {
+        path: "/parents",
+        element: <Parents></Parents>,
       },
      
     ],
