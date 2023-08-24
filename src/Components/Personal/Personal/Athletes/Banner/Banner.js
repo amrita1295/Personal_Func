@@ -14,7 +14,7 @@ function Banner() {
 <button>Enroll today <BsArrowRight/></button>
        </div>
        <div className="hero-img">
-    <img src={banner} alt="" className='w-100% h-100' />
+    <img src={banner} alt="" />
        </div>
      </div>
     

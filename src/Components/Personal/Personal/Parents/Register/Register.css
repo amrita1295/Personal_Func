@@ -11,9 +11,24 @@
     gap: 0.5rem;
     margin-bottom: 2rem;
 }
+.Register .heading-btn button{
+    height: 50px;
+    width: 200px;
+    border: 1px solid #ED5009;
+    background-color: #4E62D6;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
 .Register .heading-btn h2{
     color: black;
 }
+
 .Register  .reg-area{
 
     display: flex;

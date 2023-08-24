@@ -4,6 +4,7 @@
 }
 .Duration h2{
     margin-bottom: 2rem;
+    margin-left: 1rem;
     
 }
 .Duration .price-duration{
@@ -24,10 +25,10 @@
 }
 .Duration .price-area h3{
     color: #4E62D6;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .Duration .price-area span{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 @media (max-width:1000px) {
     .Duration .price-duration{
